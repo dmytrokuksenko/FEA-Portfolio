@@ -27,9 +27,14 @@ TODO: add table with disp comparison
 # References
 
 [1]	I. Daniel, O. Ishai, Engineering mechanics of composite materials, Oxford University Press, 2006.
+
 [2]	Coreform Cubit, (n.d.). https://coreform.com/ (accessed June 12, 2022).
+
 [3]	M. Borovinšek, PrePoMax, (n.d.). https://prepomax.fs.um.si/ (accessed June 12, 2022).
+
 [4]	G. Dhondt, Witting Klaus, CALCULIX: A Free Three-Dimensional Structural Finite Element Program, (n.d.). http://www.calculix.de/ (accessed June 12, 2022).
+
 [5]	Abaqus Benchmarks Guide, Failure of Blunt Notched Fiber Metal Laminates, (n.d.). https://abaqus-docs.mit.edu/2017/English/SIMACAEEXARefMap/simaexa-c-damagefailfml.htm (accessed June 12, 2022).
+
 [6]	E. Barbero, Finite element analysis of composite materials using Abaqus, CRC Press, 2013.
 
