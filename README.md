@@ -8,7 +8,12 @@ The geometry of the plate is generated in Cubit, a commercial software package f
 
 The plate is modeled as a transversely isotropic composite material in the framework of linear elasticity. The effective elastic properties of a single AS4/9310 lamina are outlined in Table 1.
 
-TODO: add the table with properties!
+Table 1. Material properties of the AS4/9310 CFRP composite constituents.
+
+| Material | E1 (GPa) | E2 (GPa) | G12(GPa) | G23 (GPa)|   ν12    |    ν23   |
+|----------|----------|----------|----------|----------|----------|----------|
+| AS4/9310 |  133.86  |  7.706   |  4.306   |   2.76   |   0.3    |   0.396  |
+
 
 CalculiX has built-in capabilities to simulate the response of a composite material by either directly specifying the components of a stiffness tensor or by defining engineering constants. However, the simulation of damage initiation and propagation in composites can be accomplished only by deploying user-defined material model. The CalculiX user manual guidelines on the implementation of custom material models, but an in-depth description of the necessary steps is out of scope for this report. A ready-to-use Abaqus Linde user material model for damage initiation and propagation in composites has been incorporates as-is into CalculiX to compare results [5].
 
