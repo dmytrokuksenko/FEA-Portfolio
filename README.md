@@ -19,6 +19,8 @@ CalculiX has built-in capabilities to simulate the response of a composite mater
 
 Figure 2 depicts a finite element model of the plate highlighting the node sets for the boundary conditions prescription. The prescribed displacements/rotations for each node set are summarized in Table 2. The plate is subjected to the uniform pressure of 0.12〖⋅10〗^(-3)  MPa. Only a quarter of the plate is considered in FEA due to symmetry.
 
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/project-1_uni_composite_plate_bending/deflection-plate-mesh.png "")
+
 Figure 2. Symmetric part of a simply supported composite plate discretized with the second-order shell finite elements (S8R). The node sets for the prescription of boundary conditions are also highlighted.
 
 Table 2. Boundary conditions for the node sets of the composite plate under investigation.
@@ -30,15 +32,25 @@ Table 2. Boundary conditions for the node sets of the composite plate under inve
 |             Y+          |  u2=0,u1(θ)=0,u3(θ)=0   |
 
 
-TODO: add figure with boundary conditions and talbe with boundary conditions
-
 Figure 3a-d shows simulation results of the composite plate subjected to the uniform pressure. Both material models, built-in and Linde, accurately predicts the maxim displacement of the composite plate. The maximum displacement, 17.45 mm, appears in the middle of the composite plate. The difference between von Mises stress distribution is almost indistinguishable.
 
-TODO: add figure with sim results
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/project-1_uni_composite_plate_bending/disp-stress-built-in.png "")
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/project-1_uni_composite_plate_bending/disp-stress-Linde.png "")   
 
-Table 3 shows a comparison between predicted maximum displacement, u_3, for built-in CalculiX and Linde material models.
+Figure 3. Displacement and von Mises distributions in the finite element plate model simulated with a built-in material model (first row) and Linde material model (second row).
 
-TODO: add table with disp comparison
+Table 3 shows a comparison between predicted maximum displacement, u3, for built-in CalculiX and Linde material models.
+
+Table 3. Predicted maximum displacement in the composite plate for built-in and Linde material models.
+
+|          | Barbero et al [6] | Built-in CalculiX | Linde ABAQUS |
+|----------|-------------------|-------------------|--------------|
+| u3 (mm)  |        17.43      |        17.45      |      17.45   |
+
+## Three-Point Bending of a Unidirectional Composite Laminate
+
+## Composite Cylindrical Shell under Internal Pressure
+
 
 ## References
 
