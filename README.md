@@ -1,6 +1,6 @@
 # Portfolio of Finite Element Analysis (FEA) Projects
 
-# Unidirectional Composite Plate under Uniform Pressure
+## Unidirectional Composite Plate under Uniform Pressure
 
 The validation of the built-in and custom material model for fiber-reinforced plastic composites begins with the finite element analysis of a simply supported plate subjected to the uniform pressure. The plate has a width of 4,000 mm and a length of 2,000 mm. The thickness of the plate is 10 mm.
 
@@ -10,7 +10,7 @@ The plate is modeled as a transversely isotropic composite material in the frame
 
 Table 1. Material properties of the AS4/9310 CFRP composite constituents.
 
-| Material | E1 (GPa) | E2 (GPa) | G12(GPa) | G23 (GPa)|   ν12    |    ν23   |
+| Material | E1 (GPa) | E2 (GPa) | G12(GPa) | G23 (GPa)|   ν12    |   \nu 23  |
 |----------|----------|----------|----------|----------|----------|----------|
 | AS4/9310 |  133.86  |  7.706   |  4.306   |   2.76   |   0.3    |   0.396  |
 
@@ -20,6 +20,15 @@ CalculiX has built-in capabilities to simulate the response of a composite mater
 Figure 2 depicts a finite element model of the plate highlighting the node sets for the boundary conditions prescription. The prescribed displacements/rotations for each node set are summarized in Table 2. The plate is subjected to the uniform pressure of 0.12〖⋅10〗^(-3)  MPa. Only a quarter of the plate is considered in FEA due to symmetry.
 
 Figure 2. Symmetric part of a simply supported composite plate discretized with the second-order shell finite elements (S8R). The node sets for the prescription of boundary conditions are also highlighted.
+
+Table 2. Boundary conditions for the node sets of the composite plate under investigation.
+
+|         Node Set        | Displacement / Rotation |
+|-------------------------|-------------------------|
+|           X-, Y-        |          u3=0           |
+|             X+          |  u1=0,u2(θ)=0,u3(θ)=0   |
+|             Y+          |  u2=0,u1(θ)=0,u3(θ)=0   |
+
 
 TODO: add figure with boundary conditions and talbe with boundary conditions
 
@@ -31,7 +40,7 @@ Table 3 shows a comparison between predicted maximum displacement, u_3, for buil
 
 TODO: add table with disp comparison
 
-# References
+## References
 
 [1]	I. Daniel, O. Ishai, Engineering mechanics of composite materials, Oxford University Press, 2006.
 
