@@ -10,7 +10,7 @@ The plate is modeled as a transversely isotropic composite material in the frame
 
 Table 1. Material properties of the AS4/9310 CFRP composite constituents.
 
-| Material | E1 (GPa) | E2 (GPa) | G12(GPa) | G23 (GPa)|   ν12    |   \nu 23  |
+| Material | E1 (GPa) | E2 (GPa) | G12(GPa) | G23 (GPa)|   ν12    |    ν23   |
 |----------|----------|----------|----------|----------|----------|----------|
 | AS4/9310 |  133.86  |  7.706   |  4.306   |   2.76   |   0.3    |   0.396  |
 
