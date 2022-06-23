@@ -19,7 +19,7 @@ CalculiX has built-in capabilities to simulate the response of a composite mater
 
 Figure 2 depicts a finite element model of the plate highlighting the node sets for the boundary conditions prescription. The prescribed displacements/rotations for each node set are summarized in Table 2. The plate is subjected to the uniform pressure of 0.12〖⋅10〗^(-3)  MPa. Only a quarter of the plate is considered in FEA due to symmetry.
 
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/project-1_uni_composite_plate_bending/deflection-plate-mesh.png "")
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/deflection-plate-mesh.png "")
 
 Figure 2. Symmetric part of a simply supported composite plate discretized with the second-order shell finite elements (S8R). The node sets for the prescription of boundary conditions are also highlighted.
 
@@ -34,8 +34,8 @@ Table 2. Boundary conditions for the node sets of the composite plate under inve
 
 Figure 3a-d shows simulation results of the composite plate subjected to the uniform pressure. Both material models, built-in and Linde, accurately predicts the maxim displacement of the composite plate. The maximum displacement, 17.45 mm, appears in the middle of the composite plate. The difference between von Mises stress distribution is almost indistinguishable.
 
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/project-1_uni_composite_plate_bending/disp-stress-built-in.png "")
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/project-1_uni_composite_plate_bending/disp-stress-Linde.png "")   
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-built-in.png "")
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-Linde.png "")   
 
 Figure 3. Displacement and von Mises distributions in the finite element plate model simulated with a built-in material model (first row) and Linde material model (second row).
 
