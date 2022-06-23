@@ -1,6 +1,6 @@
 # Portfolio of Finite Element Analysis (FEA) Projects
 
-## 1. [Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
+## [1.Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
 The validation of the built-in and custom material model for fiber-reinforced plastic composites begins with the finite element analysis of a simply supported plate subjected to the uniform pressure. The plate has a width of 4,000 mm and a length of 2,000 mm. The thickness of the plate is 10 mm.
 
@@ -47,7 +47,7 @@ Table 3. Predicted maximum displacement in the composite plate for built-in and 
 |----------|-------------------|-------------------|--------------|
 | u3 (mm)  |        17.43      |        17.45      |      17.45   |
 
-## 2. [Three-Point Bending of a Unidirectional Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
+## [2.Three-Point Bending of a Unidirectional Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
 Three-point bending test is a common test for the strength estimation of unidirectional composite laminates subjected to bending loads. The National Agency for Finite Element and Standards (NAFEMS) has a benchmark problem that can be used for verification purposes. The ABAQUS Benchmarks Manual contains a comprehensive FEA study of a laminated strip under three-point bending [7]. The aforementioned results have been used to benchmark the FEA results obtained by CalculiX.
 
@@ -83,7 +83,7 @@ Table 6. The simulation results for the three-point bending coupon under investi
 TODO: Add table with results
 
 
-## 3. [Composite Cylindrical Shell under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
+## [3.Composite Cylindrical Shell under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
 Cylindrical shell is another model provided by NAFEMS for benchmarking of the FEA results [8]. The model has two materials, steel linear wrapped around with a carbon fiber-reinforced composite material. Both materials have a thickness of 2 mm. The inner radius of the cylindrical shell is 23 mm. The overall length of the shell is 200 mm. Due to the symmetry, only 18 of the overall finite element model is considered in the analysis to reduce the computation burden of the analysis. The material properties of both constituents of the composite shell are outlined in Table 7.
 
