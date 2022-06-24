@@ -17,11 +17,11 @@ Table 1. Material properties of the AS4/9310 CFRP composite constituents.
 
 CalculiX has built-in capabilities to simulate the response of a composite material by either directly specifying the components of a stiffness tensor or by defining engineering constants. However, the simulation of damage initiation and propagation in composites can be accomplished only by deploying user-defined material model. The CalculiX user manual guidelines on the implementation of custom material models, but an in-depth description of the necessary steps is out of scope for this report. A ready-to-use Abaqus Linde user material model for damage initiation and propagation in composites has been incorporated "as-is" into CalculiX to compare results [5].
 
-Figure 2 depicts a finite element model of the plate highlighting the node sets for the boundary conditions prescription. The prescribed displacements/rotations for each node set are summarized in Table 2. The plate is subjected to the uniform pressure of 0.12〖⋅10〗^(-3)  MPa. Only a quarter of the plate is considered in FEA due to symmetry.
+Figure 1 depicts a finite element model of the plate highlighting the node sets for the boundary conditions prescription. The prescribed displacements/rotations for each node set are summarized in Table 2. The plate is subjected to the uniform pressure of 0.12〖⋅10〗^(-3)  MPa. Only a quarter of the plate is considered in FEA due to symmetry.
 
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/deflection-plate-mesh.png "")
 
-Figure 2. Symmetric part of a simply supported composite plate discretized with the second-order shell finite elements (S8R). The node sets for the prescription of boundary conditions are also highlighted.
+Figure 1. Symmetric part of a simply supported composite plate discretized with the second-order shell finite elements (S8R). The node sets for the prescription of boundary conditions are also highlighted.
 
 Table 2. Boundary conditions for the node sets of the composite plate under investigation.
 
@@ -32,12 +32,12 @@ Table 2. Boundary conditions for the node sets of the composite plate under inve
 |             Y+          |  u2=0,u1(θ)=0,u3(θ)=0   |
 
 
-Figure 3a-d shows simulation results of the composite plate subjected to the uniform pressure. Both material models, built-in and Linde, accurately predicts the maxim displacement of the composite plate. The maximum displacement, 17.45 mm, appears in the middle of the composite plate. The difference between von Mises stress distributions between the current model and the benchmark model is almost indistinguishable.
+Figure 2a-d shows simulation results of the composite plate subjected to the uniform pressure. Both material models, built-in and Linde, accurately predicts the maxim displacement of the composite plate. The maximum displacement, 17.45 mm, appears in the middle of the composite plate. The difference between von Mises stress distributions between the current model and the benchmark model is almost indistinguishable.
 
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-built-in.png "")
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-Linde.png "")   
 
-Figure 3. Displacement and von Mises distributions in the finite element plate model simulated with a built-in material model (first row) and Linde material model (second row).
+Figure 2. Displacement and von Mises distributions in the finite element plate model simulated with a built-in material model (first row) and Linde material model (second row).
 
 Table 3 shows a comparison between predicted maximum displacement, u3, for built-in CalculiX and Linde material models.
 
@@ -63,9 +63,9 @@ Table 4. Material properties of the laminated strip under investigation.
 
 A discretized finite element model of the laminated strip is presented in Figure 4a. It also highlighted three node sets that are used to prescribe the appropriate boundary conditions. The model contains 20 shell elements, 10 elements in the longitudinal direction, and 2 elements in the transverse direction. Figure 4b illustrates a layup of the composite under consideration. The laminated strip contains 0°- and 90°-oriented composite plies. Figure 4b also highlights three points, C, D, and E, that are used for measuring the displacement, normal, and shear stress in the composite coupon.
 
-Figure 4. The finite element model of a three-point bending coupon meshed with shell elements (a) with a demonstration of a laminated layup (b).
-
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-mesh-bc.png "")
+Figure 3. The finite element model of a three-point bending coupon meshed with shell elements (a) with a demonstration of a laminated layup (b).
+
 
 A synopsis of prescribed boundary conditions for the three-point bend specimen is outlined in Table 5. The node set X- represents a pin support, whereas the X+is presented as the roller support. A concentrated force of 10 N/mm is applied to the Xcenter node set.
 
@@ -77,13 +77,13 @@ Table 5. Boundary conditions for the three-point bending stripe under investigat
 |             X+          |           u3=0          |
 |          Xcenter        |        f3=10 N/mm       |
 
-Figure 5 shows the finite element analysis results of the three-point bending coupon. The first row, Figure 5a-b, compares the maximum displacement (point C) in the laminated coupon. The difference between the two material models, built-in and Linde, are almost indistinguishable. The second row, Figure 5c-d, depicts the distribution of the bending stress in the laminated coupon. The maximum bending stress (point E) is on par between the two material models. The third row of Figure 5e-f compares the interlaminar shear stress between predicted by two material models under investigation. The interlaminar stress is measured at point D for both material models. Both models overestimate the interlaminar stress in comparison with the benchmark results. The Linde model, however, results in a more realistic prediction of interlaminar shear stress.
+Figure 4 shows the finite element analysis results of the three-point bending coupon. The first row, Figure 5a-b, compares the maximum displacement (point C) in the laminated coupon. The difference between the two material models, built-in and Linde, are almost indistinguishable. The second row, Figure 5c-d, depicts the distribution of the bending stress in the laminated coupon. The maximum bending stress (point E) is on par between the two material models. The third row of Figure 5e-f compares the interlaminar shear stress between predicted by two material models under investigation. The interlaminar stress is measured at point D for both material models. Both models overestimate the interlaminar stress in comparison with the benchmark results. The Linde model, however, results in a more realistic prediction of interlaminar shear stress.
 
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-disp.png "")
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-s11.png "")
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-s13.png "")
 
-Figure 5. Simulation results for the maximum displacement at point C (a-b), maximum bending stress at point E (c-d), maximum interlaminar shear stress at point D (e-f) for the built-in orthotropic material model (a, c, e), and Linde material model (b, d, f).
+Figure 4. Simulation results for the maximum displacement at point C (a-b), maximum bending stress at point E (c-d), maximum interlaminar shear stress at point D (e-f) for the built-in orthotropic material model (a, c, e), and Linde material model (b, d, f).
 
 Table 6 provides the comparison between the simulation results for the built-in orthotropic material model and the Linde material model vs. the NAFEMS benchmarking results. In sum, the Linder material model shows a better performance due to a better prediction of the interlaminar shear strength prediction. The built-in orthotropic material modes, on the other hand, significantly overestimate the interlaminar shear stress. The prediction of maximum displacement and the bending stress is very similar between the two models in comparison with the NAFEMS benchmark model.
 
@@ -103,20 +103,20 @@ Cylindrical shell is another model provided by NAFEMS for benchmarking of the FE
 Table 7. Mechanical properties of the cylindrical shell materials.
 TODO: Add table with material properties
 
-Figure 6 shows a finite element model of the cylindrical shell. The model is meshed with second-order shell elements with reduced integration (SR8). Symmetric boundary conditions are prescribed to Ysym and Xsym. The nodes belonging to the bottom node set, Zbottom, are constrained to move in the z-direction. The shell is subjected to an internal pressure of 200 MPa. 
+Figure 5 shows a finite element model of the cylindrical shell. The model is meshed with second-order shell elements with reduced integration (SR8). Symmetric boundary conditions are prescribed to Ysym and Xsym. The nodes belonging to the bottom node set, Zbottom, are constrained to move in the z-direction. The shell is subjected to an internal pressure of 200 MPa. 
 
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cylindrical-shell/cylindrical-shell-mesh-bc.png "")
-Figure 7. A finite element model of a composite shell (CFRP composite & steel) subjected to the internal pressure.
+Figure 5. A finite element model of a composite shell (CFRP composite & steel) subjected to the internal pressure.
 
 Table 8. Boundary conditions of the cylindrical shell.
 
 TODO: Add table with boundary conditions
 
-Open-source finite element solver CalculiX is used to perform the analysis of the cylindrical shell. Two material models, built-in orthotropic and Linde ABAQUS, are used to predict the response of the CFRP composite material of the cylindrical shell subjected to the internal pressure. Figure 8 shows the stress distribution in the cylindrical shell with the built-on orthotropic material model for the CFRP composite. It is worth mentioning that both materials of the cylindrical shell are simulated in the framework of linear elasticity without the possibility to undergo damage.
+Open-source finite element solver CalculiX is used to perform the analysis of the cylindrical shell. Two material models, built-in orthotropic and Linde ABAQUS, are used to predict the response of the CFRP composite material of the cylindrical shell subjected to the internal pressure. Figure 6 shows the stress distribution in the cylindrical shell with the built-on orthotropic material model for the CFRP composite. It is worth mentioning that both materials of the cylindrical shell are simulated in the framework of linear elasticity without the possibility to undergo damage.
 
 
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cylindrical-shell/cylindrical-shell-fea-results.png "")
-Figure 8. Stress distribution in the cylindrical shell is modeled with a built-in orthotropic material model.
+Figure 6. Stress distribution in the cylindrical shell is modeled with a built-in orthotropic material model.
 
 The simulation results comparing the prediction between two material models, built-in orthotropic and Linde, are outlined in Table 9. The stress is compared at four points, inner and outer radii for both cylindrical shell constituents. The results are compared to the benchmark NAFEMS model presented in [8].
 
@@ -129,25 +129,25 @@ TODO: Add table with results
 
 ## [6.CALCULIX UMAT for Damage Initiation and Propagaiton in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
-The implementation of the custom material models is verified on a single element at the initial step. The results are benchmarked against the built-in orthotropic material model available in CalculiX. Note the built-in orthotropic material model doesn’t have the capacity to track damage. Figure 2 illustrates a sketch of a single element under investigation. The width and the height of the single element are 203.2 mm and 101.6 mm. A discretized finite element model has a single quadratic shell element with reduced integration (S8R). The thickness of the single element is 1 mm. Figure 2 also highlights the constraints applied to the appropriate node sets. The stress-strain response of the finite element model is verified under the displacement and force control to verify the implementation.
+The implementation of the custom material models is verified on a single element at the initial step. The results are benchmarked against the built-in orthotropic material model available in CalculiX. Note the built-in orthotropic material model doesn’t have the capacity to track damage. Figure 7 illustrates a sketch of a single element under investigation. The width and the height of the single element are 203.2 mm and 101.6 mm. A discretized finite element model has a single quadratic shell element with reduced integration (S8R). The thickness of the single element is 1 mm. Figure 7 also highlights the constraints applied to the appropriate node sets. The stress-strain response of the finite element model is verified under the displacement and force control to verify the implementation.
 
 TODO: Add figure with model sketch
-Figure 2. A finite element model of a single element for the verification of custom material models in CalculiX.
+Figure 7. A finite element model of a single element for the verification of custom material models in CalculiX.
 
 Table 1 outlines the material properties of a fiber-reinforced material under investigation. The principal direction of the fiber’s orientation is aligned with the x axis of the finite element model.
 
 Table 1. Material properties of a composite material for the finite element model.
 TODO: Add table with mat properties
 
-Figure 3 illustrates displacement in the finite element model under the displacement control. Deformed and undeformed shapes are shown to illustrate the effect of boundary conditions on the displacement distribution. The FEA results are shown for the orthotropic material model available in CalculiX.
+Figure 8 illustrates displacement in the finite element model under the displacement control. Deformed and undeformed shapes are shown to illustrate the effect of boundary conditions on the displacement distribution. The FEA results are shown for the orthotropic material model available in CalculiX.
 
 TODO: Add figure with FEA resutls
-Figure 3. The FEA results of a single element model subjected to 1 mm displacement in the x-direction.
+Figure 8. The FEA results of a single element model subjected to 1 mm displacement in the x-direction.
 
-To benchmark strength prediction in the direction of the fibers, a 2.5 mm displacement is applied to the model in the x direction. Figure 4 shows the stress-strain curves for all custom material models under investigation. The results are benchmarked against the built-in orthotropic material model that doesn’t have a capacity to predict the onset of damage. All custom models accurately predict the composite’s strength in the fiber’s direction under applied displacement. Despite the differences in strength onset prediction among various failure criteria, under the tension in fiber’s direction all failure criteria converge to the same response. Up to onset of damage, all stress-strain curves are perfectly aligned with the built-in orthotropic material model. A difference in stress-strain response between custom material models is manifested after the onset of damage. The difference between Linde material model and the rest stems from different implementation of damage evolution after the onset of damage.
+To benchmark strength prediction in the direction of the fibers, a 2.5 mm displacement is applied to the model in the x direction. Figure 9 shows the stress-strain curves for all custom material models under investigation. The results are benchmarked against the built-in orthotropic material model that doesn’t have a capacity to predict the onset of damage. All custom models accurately predict the composite’s strength in the fiber’s direction under applied displacement. Despite the differences in strength onset prediction among various failure criteria, under the tension in fiber’s direction all failure criteria converge to the same response. Up to onset of damage, all stress-strain curves are perfectly aligned with the built-in orthotropic material model. A difference in stress-strain response between custom material models is manifested after the onset of damage. The difference between Linde material model and the rest stems from different implementation of damage evolution after the onset of damage.
 
 TODO: Add figure with stress-strain curves
-Figure 4. The stress-strain curves of the finite element model of a single element subjected to the 2.5 mm in the fiber’s direction. 
+Figure 9. The stress-strain curves of the finite element model of a single element subjected to the 2.5 mm in the fiber’s direction. 
  
 ## [7.Open-hole Coupon Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/open-hole-coupon)
 
