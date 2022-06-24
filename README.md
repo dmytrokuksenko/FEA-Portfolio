@@ -32,7 +32,7 @@ Table 2. Boundary conditions for the node sets of the composite plate under inve
 |             Y+          |  u2=0,u1(θ)=0,u3(θ)=0   |
 
 
-Figure 3a-d shows simulation results of the composite plate subjected to the uniform pressure. Both material models, built-in and Linde, accurately predicts the maxim displacement of the composite plate. The maximum displacement, 17.45 mm, appears in the middle of the composite plate. The difference between von Mises stress distribution is almost indistinguishable.
+Figure 3a-d shows simulation results of the composite plate subjected to the uniform pressure. Both material models, built-in and Linde, accurately predicts the maxim displacement of the composite plate. The maximum displacement, 17.45 mm, appears in the middle of the composite plate. The difference between von Mises stress distributions between the current model and the benchmark model is almost indistinguishable.
 
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-built-in.png "")
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-Linde.png "")   
@@ -110,6 +110,14 @@ The simulation results comparing the prediction between two material models, bui
 
 Table 9. Finite element results of the stress in the cylindrical shell at four points.
 TODO: Add table with results
+
+## [4.Composite Rotating Disk Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-stress)
+
+## [5.Composite Rotating Disk Vibration Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-vibration)
+
+## [6.UMAT for Damage Initiation and Propagaiton in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
+
+## [7.Open-hole Coupon Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/open-hole-coupon)
 
 
 ## References
