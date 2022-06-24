@@ -129,6 +129,26 @@ TODO: Add table with results
 
 ## [6.CALCULIX UMAT for Damage Initiation and Propagaiton in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
+The implementation of the custom material models is verified on a single element at the initial step. The results are benchmarked against the built-in orthotropic material model available in CalculiX. Note the built-in orthotropic material model doesn’t have the capacity to track damage. Figure 2 illustrates a sketch of a single element under investigation. The width and the height of the single element are 203.2 mm and 101.6 mm. A discretized finite element model has a single quadratic shell element with reduced integration (S8R). The thickness of the single element is 1 mm. Figure 2 also highlights the constraints applied to the appropriate node sets. The stress-strain response of the finite element model is verified under the displacement and force control to verify the implementation.
+
+TODO: Add figure with model sketch
+Figure 2. A finite element model of a single element for the verification of custom material models in CalculiX.
+
+Table 1 outlines the material properties of a fiber-reinforced material under investigation. The principal direction of the fiber’s orientation is aligned with the x axis of the finite element model.
+
+Table 1. Material properties of a composite material for the finite element model.
+TODO: Add table with mat properties
+
+Figure 3 illustrates displacement in the finite element model under the displacement control. Deformed and undeformed shapes are shown to illustrate the effect of boundary conditions on the displacement distribution. The FEA results are shown for the orthotropic material model available in CalculiX.
+
+TODO: Add figure with FEA resutls
+Figure 3. The FEA results of a single element model subjected to 1 mm displacement in the x-direction.
+
+To benchmark strength prediction in the direction of the fibers, a 2.5 mm displacement is applied to the model in the x direction. Figure 4 shows the stress-strain curves for all custom material models under investigation. The results are benchmarked against the built-in orthotropic material model that doesn’t have a capacity to predict the onset of damage. All custom models accurately predict the composite’s strength in the fiber’s direction under applied displacement. Despite the differences in strength onset prediction among various failure criteria, under the tension in fiber’s direction all failure criteria converge to the same response. Up to onset of damage, all stress-strain curves are perfectly aligned with the built-in orthotropic material model. A difference in stress-strain response between custom material models is manifested after the onset of damage. The difference between Linde material model and the rest stems from different implementation of damage evolution after the onset of damage.
+
+TODO: Add figure with stress-strain curves
+Figure 4. The stress-strain curves of the finite element model of a single element subjected to the 2.5 mm in the fiber’s direction. 
+ 
 ## [7.Open-hole Coupon Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/open-hole-coupon)
 
 
