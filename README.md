@@ -88,7 +88,12 @@ Figure 5. Simulation results for the maximum displacement at point C (a-b), maxi
 Table 6 provides the comparison between the simulation results for the built-in orthotropic material model and the Linde material model vs. the NAFEMS benchmarking results. In sum, the Linder material model shows a better performance due to a better prediction of the interlaminar shear strength prediction. The built-in orthotropic material modes, on the other hand, significantly overestimate the interlaminar shear stress. The prediction of maximum displacement and the bending stress is very similar between the two models in comparison with the NAFEMS benchmark model.
 
 Table 6. The simulation results for the three-point bending coupon under investigation.
-TODO: Add table with results
+
+|   Model  |     S11 (MPA)     |      S13 (MPA)    |     u3 (mm)  |
+|----------|-------------------|-------------------|--------------|
+|  NAFEMS  |       684         |        4.1        |     1.06     |
+| Built-in |   671.5(1.83%)    |   5.477(26.27%)   |  1.058(0.19%)|
+|  Linde   |   672.5(1.68%)    |   4.587(11.39%)   |  1.051(0.85%)|
 
 
 ## [3.Composite Cylindrical Shell under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
