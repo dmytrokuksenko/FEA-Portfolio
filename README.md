@@ -57,23 +57,31 @@ The laminated strip is modeled as transversely isotropic material with the mater
 
 Table 4. Material properties of the laminated strip under investigation.
 
-TODO: Add table with material properties
+| Material | E1 (GPa) | E2 (GPa) | G12(GPa) | G23 (GPa)|   ν12    |    ν23   |
+|----------|----------|----------|----------|----------|----------|----------|
+| AS4/9310 |    100   |    5     |    2     |     3    |   0.4    |    0.3   |
 
 A discretized finite element model of the laminated strip is presented in Figure 4a. It also highlighted three node sets that are used to prescribe the appropriate boundary conditions. The model contains 20 shell elements, 10 elements in the longitudinal direction, and 2 elements in the transverse direction. Figure 4b illustrates a layup of the composite under consideration. The laminated strip contains 0°- and 90°-oriented composite plies. Figure 4b also highlights three points, C, D, and E, that are used for measuring the displacement, normal, and shear stress in the composite coupon.
 
 Figure 4. The finite element model of a three-point bending coupon meshed with shell elements (a) with a demonstration of a laminated layup (b).
 
-TODO: Add figure of the finite element model
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-mesh-bc.png "")
 
 A synopsis of prescribed boundary conditions for the three-point bend specimen is outlined in Table 5. The node set X- represents a pin support, whereas the X+is presented as the roller support. A concentrated force of 10 N/mm is applied to the Xcenter node set.
 
 Table 5. Boundary conditions for the three-point bending stripe under investigation.
 
-TODO: Add table with boundary conditions
+|         Node Set        | Displacement / Rotation |
+|-------------------------|-------------------------|
+|             X-          |        u1=u2=u3=0       |
+|             X+          |           u3=0          |
+|          Xcenter        |        f3=10 N/mm       |
 
 Figure 5 shows the finite element analysis results of the three-point bending coupon. The first row, Figure 5a-b, compares the maximum displacement (point C) in the laminated coupon. The difference between the two material models, built-in and Linde, are almost indistinguishable. The second row, Figure 5c-d, depicts the distribution of the bending stress in the laminated coupon. The maximum bending stress (point E) is on par between the two material models. The third row of Figure 5e-f compares the interlaminar shear stress between predicted by two material models under investigation. The interlaminar stress is measured at point D for both material models. Both models overestimate the interlaminar stress in comparison with the benchmark results. The Linde model, however, results in a more realistic prediction of interlaminar shear stress.
 
-TODO: Add figure with results
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-disp.png "")
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-s11.png "")
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-s13.png "")
 
 Figure 5. Simulation results for the maximum displacement at point C (a-b), maximum bending stress at point E (c-d), maximum interlaminar shear stress at point D (e-f) for the built-in orthotropic material model (a, c, e), and Linde material model (b, d, f).
 
@@ -115,7 +123,7 @@ TODO: Add table with results
 
 ## [5.Composite Rotating Disk Vibration Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-vibration)
 
-## [6.UMAT for Damage Initiation and Propagaiton in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
+## [6.CALCULIX UMAT for Damage Initiation and Propagaiton in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
 ## [7.Open-hole Coupon Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/open-hole-coupon)
 
