@@ -1,6 +1,11 @@
 # Portfolio of Finite Element Analysis (FEA) Projects
 
-## [1.Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
+
+## Executvie Summary
+
+TODO: Add a synopsis of the projects that are 
+
+## 1. [Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
 The validation of the built-in and custom material model for fiber-reinforced plastic composites begins with the finite element analysis of a simply supported plate subjected to the uniform pressure. The plate has a width of 4,000 mm and a length of 2,000 mm. The thickness of the plate is 10 mm.
 
@@ -47,7 +52,7 @@ Table 3. Predicted maximum displacement in the composite plate for built-in and 
 |----------|-------------------|-------------------|--------------|
 | u3 (mm)  |        17.43      |        17.45      |      17.45   |
 
-## [2.Three-Point Bending of a Unidirectional Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
+## 2. [Three-Point Bending of a Unidirectional Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
 Three-point bending test is a common test for the strength estimation of unidirectional composite laminates subjected to bending loads. The National Agency for Finite Element and Standards (NAFEMS) has a benchmark problem that can be used for verification purposes. The ABAQUS Benchmarks Manual contains a comprehensive FEA study of a laminated strip under three-point bending [7]. The aforementioned results have been used to benchmark the FEA results obtained by CalculiX.
 
@@ -96,7 +101,7 @@ Table 6. The simulation results for the three-point bending coupon under investi
 |  Linde   |   672.5(1.68%)    |   4.587(11.39%)   |  1.051(0.85%)|
 
 
-## [3.Composite Cylindrical Shell under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
+## 3. [Composite Cylindrical Shell under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
 Cylindrical shell is another model provided by NAFEMS for benchmarking of the FEA results [8]. The model has two materials, steel linear wrapped around with a carbon fiber-reinforced composite material. Both materials have a thickness of 2 mm. The inner radius of the cylindrical shell is 23 mm. The overall length of the shell is 200 mm. Due to the symmetry, only 18 of the overall finite element model is considered in the analysis to reduce the computation burden of the analysis. The material properties of both constituents of the composite shell are outlined in Table 7.
 
@@ -123,21 +128,27 @@ The simulation results comparing the prediction between two material models, bui
 Table 9. Finite element results of the stress in the cylindrical shell at four points.
 TODO: Add table with results
 
-## [4.Composite Rotating Disk Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-stress)
+## 4. [Composite Rotating Disk Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-stress)
 
-## [5.Composite Rotating Disk Vibration Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-vibration)
+## 5. [Composite Rotating Disk Vibration Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-vibration)
 
-## [6.CALCULIX UMAT for Damage Initiation and Propagaiton in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
+## 6. [CALCULIX UMAT for Damage Initiation and Propagaiton in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
 The implementation of the custom material models is verified on a single element at the initial step. The results are benchmarked against the built-in orthotropic material model available in CalculiX. Note the built-in orthotropic material model doesn’t have the capacity to track damage. Figure 7 illustrates a sketch of a single element under investigation. The width and the height of the single element are 203.2 mm and 101.6 mm. A discretized finite element model has a single quadratic shell element with reduced integration (S8R). The thickness of the single element is 1 mm. Figure 7 also highlights the constraints applied to the appropriate node sets. The stress-strain response of the finite element model is verified under the displacement and force control to verify the implementation.
 
 TODO: Add figure with model sketch
 Figure 7. A finite element model of a single element for the verification of custom material models in CalculiX.
 
-Table 1 outlines the material properties of a fiber-reinforced material under investigation. The principal direction of the fiber’s orientation is aligned with the x axis of the finite element model.
+Table 10 outlines the material properties of a fiber-reinforced material under investigation. The principal direction of the fiber’s orientation is aligned with the x axis of the finite element model.
 
-Table 1. Material properties of a composite material for the finite element model.
-TODO: Add table with mat properties
+Table 10. Material properties of a composite material for the finite element model.
+|   Material  | E1 (GPa) | E2 (GPa) | G12(GPa) | G23 (GPa)|   ν12    |    ν23   |
+|-------------|----------|----------|----------|----------|----------|----------|
+|             |  159.96  |   8.96   |   6.205  |   3.447  |   0.28   |   0.28   |
+|             |F1t (GPa) |F1c (GPa) |F2t (MPa) |F2c (MPa) | F4 (MPa) |     -    |
+|  Composite  |   2.84   |   1.76   |   60.12  |  167.54  |   60.12  |          |
+|             |Gamma_f(J)|Gamma_m(J)|    nu    |     -    |     -    |     -    |
+|             |   12.5   |    1     |    1     |     -    |     -    |     -    |
 
 Figure 8 illustrates displacement in the finite element model under the displacement control. Deformed and undeformed shapes are shown to illustrate the effect of boundary conditions on the displacement distribution. The FEA results are shown for the orthotropic material model available in CalculiX.
 
@@ -149,7 +160,7 @@ To benchmark strength prediction in the direction of the fibers, a 2.5 mm displa
 TODO: Add figure with stress-strain curves
 Figure 9. The stress-strain curves of the finite element model of a single element subjected to the 2.5 mm in the fiber’s direction. 
  
-## [7.Open-hole Coupon Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/open-hole-coupon)
+## 7. [Open-hole Coupon Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/open-hole-coupon)
 
 
 ## References
