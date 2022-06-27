@@ -128,9 +128,9 @@ The simulation results comparing the prediction between two material models, bui
 Table 9. Finite element results of the stress in the cylindrical shell at four points.
 TODO: Add table with results
 
-## 4. [Composite Rotating Disk Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-stress)
+## 4. [Stress Analysis of a Composite Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-stress)
 
-## 5. [Composite Rotating Disk Vibration Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-vibration)
+## 5. [Vibration Analysis of a Composite Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-vibration)
 
 ## 6. [CALCULIX UMAT for Damage Initiation and Propagaiton in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
