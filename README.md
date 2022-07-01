@@ -3,7 +3,7 @@
 
 ## Executvie Summary
 
-TODO: Add a synopsis of the projects that are 
+TODO: Add a synopsis of the projects. A high level overview of the projects related to composites, predominantely, and beyond. 
 
 ## 1. [Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
@@ -158,12 +158,12 @@ Figure 8. The FEA results of a single element model subjected to 1 mm displaceme
 To benchmark strength prediction in the direction of the fibers, a 2.5 mm displacement is applied to the model in the x direction. Figure 9 shows the stress-strain curves for all custom material models under investigation. The results are benchmarked against the built-in orthotropic material model that doesn’t have a capacity to predict the onset of damage. All custom models accurately predict the composite’s strength in the fiber’s direction under applied displacement. Despite the differences in strength onset prediction among various failure criteria, under the tension in fiber’s direction all failure criteria converge to the same response. Up to onset of damage, all stress-strain curves are perfectly aligned with the built-in orthotropic material model. A difference in stress-strain response between custom material models is manifested after the onset of damage. The difference between Linde material model and the rest stems from different implementation of damage evolution after the onset of damage.
 
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/umat-single-element/single-element-umat-stress-strain.png "")
-Figure 9. The stress-strain curves of the finite element model of a single element subjected to the 2.5 mm in the fiber’s direction. 
- 
-## 7. [Open-hole Coupon Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/open-hole-coupon)
+Figure 9. The stress-strain curves of the finite element model of a single element subjected to the 2.5 mm in the fiber’s direction.
 
+## 7. [Strength of a Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/laminate-strength)
 
 ## References
+-------------
 
 [1]	I. Daniel, O. Ishai, Engineering mechanics of composite materials, Oxford University Press, 2006.
 
