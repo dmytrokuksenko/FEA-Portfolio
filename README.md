@@ -34,11 +34,17 @@ The implementation of the custom material models is verified on a single element
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/umat-single-element/single-element-umat-stress-strain.png "")
 The stress-strain curves of the finite element model of a single element subjected to the displacement in the fiber’s direction
 
-## 5. [Strength of a Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/laminate-strength)
+## 5. [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
 
-## 6. [Stress Analysis of a Composite Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-stress)
+Bucklilng is the loss of stability of the thin-walled structure. Fiber-reinforced polymers (FRP) composites fall under this category due to high weight-to-strength ratio.
+Less material is needed to manufacture strucutre of FRP composites. Thus, the wall thinckness is much smaller in comparison with the other dimensions of the structure.
 
-## 7. [Vibration Analysis of a Composite Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-vibration)
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-shell-buckling/fea-buckling-composite.png "")
+Exgagerated deformed shape of cylindircal composite shell subjected to compressive load (1kN). The analysis has been performed in the framework of linear buckling analysis.
 
-## 8. [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
+## 6. [Strength of a Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/laminate-strength)
+
+## 7. [Stress Analysis of a Composite Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-stress)
+
+## 8. [Vibration Analysis of a Composite Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-vibration)
 
