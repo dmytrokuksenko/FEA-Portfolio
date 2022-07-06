@@ -2,7 +2,7 @@
 
 ## Executvie Summary
 
-TODO: Add a synopsis of the projects. A high level overview of the projects related to composites, predominantely, and beyond. 
+TODO: Add a synopsis of the projects
 
 ## 1. [Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
@@ -39,4 +39,6 @@ The stress-strain curves of the finite element model of a single element subject
 ## 6. [Stress Analysis of a Composite Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-stress)
 
 ## 7. [Vibration Analysis of a Composite Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-vibration)
+
+## 8. [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
 
