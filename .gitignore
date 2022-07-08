@@ -1,1 +1,3 @@
 # Gitignore
+# Ignore all log files
+*.log
