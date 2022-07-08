@@ -8,8 +8,17 @@ TODO: Add a synopsis of the projects
 
 The validation of the built-in and custom material model for fiber-reinforced plastic composites begins with the finite element analysis of a simply supported plate subjected to the uniform pressure. The plate has a width of 4,000 mm and a length of 2,000 mm. The thickness of the plate is 10 mm.
 
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-built-in.png "")
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-Linde.png "")   
+[<img
+  src="cfrp-plate-bending/disp-stress-built-in.png"
+  width="750"
+  title="Composite Plate with Built-In Calculix Material Properties">
+](cfrp-plate-bending/)
+
+[<img
+  src="cfrp-plate-bending/disp-stress-Linde.png"
+  width="750"
+  title="Composite Plate with Linde Material Model">
+](cfrp-plate-bending/)
 
 
 ## 2. [Three-Point Bending of a Unidirectional Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-three-point-bend)
