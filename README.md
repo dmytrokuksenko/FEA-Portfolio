@@ -23,9 +23,23 @@ The validation of the built-in and custom material model for fiber-reinforced pl
 
 ## 2. [Three-Point Bending of a Unidirectional Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-three-point-bend)
 
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-disp.png "")
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-s11.png "")
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-three-point-bend/three-point-bending-s13.png "")
+[<img
+  src="cfrp-three-point-bend/three-point-bending-disp.png"
+  width="750"
+  title="Composite Plate with Built-In Calculix Material Properties">
+](cfrp-three-point-bend/)
+
+[<img
+  src="cfrp-three-point-bend/three-point-bending-s11.png"
+  width="750"
+  title="Composite Plate with Built-In Calculix Material Properties">
+](cfrp-three-point-bend/)
+
+[<img
+  src="cfrp-three-point-bend/three-point-bending-s13.png"
+  width="750"
+  title="Composite Plate with Built-In Calculix Material Properties">
+](cfrp-three-point-bend/)
 
 The maximum displacement, bending stress, and interlaminar shear stress in a unidirectional composite laminate subjected to three point bending
 
@@ -33,14 +47,24 @@ The maximum displacement, bending stress, and interlaminar shear stress in a uni
 
 Cylindrical shell is another model provided by NAFEMS for benchmarking of the FEA results. The model has two materials, steel linear wrapped around with a carbon fiber-reinforced composite material. Both materials have a thickness of 2 mm. The inner radius of the cylindrical shell is 23 mm. The overall length of the shell is 200 mm. 
 
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cylindrical-shell/cylindrical-shell-fea-results.png "")
+[<img
+  src="cylindrical-shell/cylindrical-shell-fea-results.png"
+  width="750"
+  title="Composite Plate with Built-In Calculix Material Properties">
+](cylindrical-shell/)
+
 Stress distribution in the cylindrical shell is modeled with a built-in orthotropic material model.
 
 ## 4. [User Material Subroutine for Damage Initiation & Propagation in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
 The implementation of the custom material models is verified on a single element at the initial step. The results are benchmarked against the built-in orthotropic material model available in CalculiX. Note the built-in orthotropic material model doesn’t have the capacity to track damage. Figure 7 illustrates a sketch of a single element under investigation. The width and the height of the single element are 203.2 mm and 101.6 mm. A discretized finite element model has a single quadratic shell element with reduced integration (S8R). The thickness of the single element is 1 mm. Figure 7 also highlights the constraints applied to the appropriate node sets. The stress-strain response of the finite element model is verified under the displacement and force control to verify the implementation.
 
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/umat-single-element/single-element-umat-stress-strain.png "")
+[<img
+  src="umat-single-element/single-element-umat-stress-strain.png"
+  width="500"
+  title="Composite Plate with Built-In Calculix Material Properties">
+](umat-single-element/)
+
 The stress-strain curves of the finite element model of a single element subjected to the displacement in the fiber’s direction
 
 ## 5. [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
@@ -48,7 +72,12 @@ The stress-strain curves of the finite element model of a single element subject
 Bucklilng is the loss of stability of the thin-walled structure. Fiber-reinforced polymers (FRP) composites fall under this category due to high weight-to-strength ratio.
 Less material is needed to manufacture strucutre of FRP composites. Thus, the wall thinckness is much smaller in comparison with the other dimensions of the structure.
 
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-shell-buckling/fea-buckling-composite.png "")
+[<img
+  src="cfrp-shell-buckling/fea-buckling-composite.png"
+  width="750"
+  title="Composite Plate with Built-In Calculix Material Properties">
+](cfrp-shell-buckling/)
+
 Exgagerated deformed shape of cylindircal composite shell subjected to compressive load (1kN). The analysis has been performed in the framework of linear buckling analysis.
 
 ## 6. [Strength of a Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/laminate-strength)
