@@ -80,9 +80,3 @@ Less material is needed to manufacture strucutre of FRP composites. Thus, the wa
 
 Exgagerated deformed shape of cylindircal composite shell subjected to compressive load (1kN). The analysis has been performed in the framework of linear buckling analysis.
 
-## 6. [Strength of a Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/laminate-strength)
-
-## 7. [Stress Analysis of a Composite Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-stress)
-
-## 8. [Vibration Analysis of a Composite Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-rotating-disk-vibration)
-
