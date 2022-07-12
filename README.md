@@ -80,3 +80,14 @@ Less material is needed to manufacture strucutre of FRP composites. Thus, the wa
 
 Exgagerated deformed shape of cylindircal composite shell subjected to compressive load (1kN). The analysis has been performed in the framework of linear buckling analysis.
 
+
+## 6. [Stress Distribution in a Solid Circular Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/solid-disk)
+
+The finite elements results of a solid circular disk rotating at a constant angular velocity. The FEA resutls are benchmarked against the analytical solution.
+
+[<img
+  src="solid-disk/solid disk analytical stress graph.png"
+  width="750">
+](solid-disk/)
+
+Radial and circumferencial 
