@@ -90,4 +90,4 @@ The finite elements results of a solid circular disk rotating at a constant angu
   width="750">
 ](solid-disk/)
 
-Radial and circumferencial 
+Radial and circumferencial stress in a hollow circular rotating disk.
