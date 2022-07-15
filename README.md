@@ -2,7 +2,7 @@
 
 ## Executvie Summary
 
-TODO: Add a synopsis of the projects
+A collection of Finite Element Analysis (FEA) projects focusing on the design and analysis of lightweight composite structures.
 
 ## 1. [Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
@@ -87,7 +87,7 @@ The finite elements results of a solid circular disk rotating at a constant angu
 
 [<img
   src="solid-disk/solid disk analytical stress graph.png"
-  width="750">
+  width="500">
 ](solid-disk/)
 
 Radial and circumferencial stress in a hollow circular rotating disk.
