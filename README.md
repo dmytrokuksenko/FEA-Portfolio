@@ -1,7 +1,5 @@
 # Portfolio of Finite Element Analysis (FEA) Projects
 
-## Executvie Summary
-
 A collection of Finite Element Analysis (FEA) projects focusing on the design and analysis of lightweight composite structures.
 
 ## 1. [Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
