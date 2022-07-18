@@ -1,6 +1,14 @@
-# Portfolio of Finite Element Analysis (FEA) Projects
+# Finite Element Analysis (FEA) Projects
 
-A collection of Finite Element Analysis (FEA) projects focusing on the design and analysis of lightweight composite structures.
+A collection of finite element analysis (FEA) projects covering static and dynamic analysis of linear and nonlinear behavior of composite (fiber-reinforced plastics) and metallic structures.
+
+**Technical Stack**
+
+*3D CAD*: Autodesk Fusion 360
+
+*FEA Software*: FEMAP, NASTRAN, CalculiX (ABAQUS-like open source software), PrePoMax 
+
+*Programming Languages*: Python, FORTRAN
 
 ## 1. [Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
