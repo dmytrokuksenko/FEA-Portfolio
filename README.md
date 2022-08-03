@@ -105,15 +105,20 @@ Radial and circumferencial stress in a hollow circular rotating disk.
 ](femap-assebmly/)
 
 
-## 8. [Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+## 8. [Modal Frequency Analysis of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
+
+[<img
+  src="femap-modal-frequency-hinge/hinge-normal-frequencies.png"
+  width="500">
+](femap-modal-frequency-hinge/)
+
+
+## 9. [Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
 [<img
   src="femap-random-response-hinge/random-vibration-hinge.png"
   width="500">
 ](femap-random-response-hinge/)
-
-
-## 9. [Modal Frequency Analysis of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
 
 ## 10. [Plastic Deformation of a Rod](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-nonlinear-material)
 
