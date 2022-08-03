@@ -99,6 +99,12 @@ Radial and circumferencial stress in a hollow circular rotating disk.
 
 ## 7. [Analysis of an Assembly in FEMAP](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
 
+[<img
+  src="femap-assembly/assembly-mises.png"
+  width="500">
+](femap-assebmly/)
+
+
 ## 8. [Modal Frequency Analysis of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
 
 ## 9. [Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
