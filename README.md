@@ -1,6 +1,6 @@
 # Portfolio of Finite Element Analysis (FEA) Projects
 
-A collection of Finite Element Analysis (FEA) projects focusing on the design and analysis of lightweight composite structures.
+A collection of Finite Element Analysis (FEA) projects focusing on the design and analysis of metallic and composite parts and structures.
 
 ## 1. [Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
@@ -17,7 +17,6 @@ The validation of the built-in and custom material model for fiber-reinforced pl
   width="750"
   title="Composite Plate with Linde Material Model">
 ](cfrp-plate-bending/)
-
 
 ## 2. [Three-Point Bending of a Unidirectional Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-three-point-bend)
 
