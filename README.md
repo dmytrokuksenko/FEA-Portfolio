@@ -1,8 +1,5 @@
-# Finite Element Analysis (FEA) Projects
+# Selected Finite Element Analysis (FEA) Projects
 
-<<<<<<< HEAD
-A collection of Finite Element Analysis (FEA) projects focusing on the design and analysis of metallic and composite parts and structures.
-=======
 A collection of finite element analysis (FEA) projects covering static and dynamic analysis of linear and nonlinear behavior of composite (fiber-reinforced plastics) and metallic structures.
 
 **Technical Stack**
@@ -12,7 +9,6 @@ A collection of finite element analysis (FEA) projects covering static and dynam
 *FEA Software*: FEMAP, NASTRAN, CalculiX (ABAQUS-like open source software), PrePoMax 
 
 *Programming Languages*: Python, FORTRAN
->>>>>>> c357e0f0f51b766fad3104267d69aea4004dda63
 
 ## 1. [Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
@@ -100,3 +96,12 @@ The finite elements results of a solid circular disk rotating at a constant angu
 ](solid-disk/)
 
 Radial and circumferencial stress in a hollow circular rotating disk.
+
+## 7. [Analysis of an Assembly in FEMAP](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
+
+## 8. [Modal Frequency Analysis of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
+
+## 9. [Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+
+## 10. [Plastic Deformation of a Rod](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-nonlinear-material)
+
