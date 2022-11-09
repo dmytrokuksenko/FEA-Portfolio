@@ -4,7 +4,7 @@ A collection of finite element analysis (FEA) projects covering static and dynam
 
 **Technical Stack**
 
-*3D CAD*: Autodesk Fusion 360
+*3D CAD*: Autodesk Fusion 360, Cubit
 
 *FEA Software*: FEMAP, NASTRAN, CalculiX (ABAQUS-like open source software), PrePoMax 
 
