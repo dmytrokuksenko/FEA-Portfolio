@@ -1,6 +1,6 @@
-# Selected Finite Element Analysis (FEA) Projects
+# Finite Element Analysis (FEA) Projects
 
-A collection of finite element analysis (FEA) projects covering static and dynamic analysis of linear and nonlinear behavior of composite (fiber-reinforced plastics) and metallic structures.
+A collection of Finite Element Analysis (FEA) projects covering static and dynamic analysis of linear and nonlinear behavior of composite (fiber-reinforced plastics) and metallic structures.
 
 **Technical Stack**
 
@@ -97,7 +97,7 @@ The finite elements results of a solid circular disk rotating at a constant angu
 
 Radial and circumferencial stress in a hollow circular rotating disk.
 
-## 7. [Analysis of an Assembly in FEMAP](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
+## 7. [Assembly Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
 
 [<img
   src="femap-assembly/assembly-mises.png"
@@ -120,5 +120,6 @@ Radial and circumferencial stress in a hollow circular rotating disk.
   width="500">
 ](femap-random-response-hinge/)
 
-## 10. [Plastic Deformation of a Rod](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-nonlinear-material)
+## 10. [Composite Airplane Wing Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+
 
