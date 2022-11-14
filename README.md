@@ -6,7 +6,7 @@ A collection of Finite Element Analysis (FEA) projects covering static and dynam
 
 *3D CAD*: Autodesk Fusion 360, Cubit
 
-*FEA Software*: FEMAP, NASTRAN, CalculiX (ABAQUS-like open source software), PrePoMax 
+*FEA Software*: FEMAP, NX-NASTRAN, CalculiX (ABAQUS-like open source software), PrePoMax 
 
 *Programming Languages*: Python, FORTRAN
 
@@ -120,6 +120,12 @@ Radial and circumferencial stress in a hollow circular rotating disk.
   width="500">
 ](femap-random-response-hinge/)
 
-## 10. [Composite Airplane Wing Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+## 10. [Composite Wing Design & Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+
+To Be Added
+
+## 11. [Shock Spectrum Response Analysis of Composite Pressure Vessel](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+
+To Be Added
 
 
