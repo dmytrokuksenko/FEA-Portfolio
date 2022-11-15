@@ -120,9 +120,12 @@ Radial and circumferencial stress in a hollow circular rotating disk.
   width="500">
 ](femap-random-response-hinge/)
 
-## 10. [Composite Wing Design & Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+## 10. [Composite Wing Design & Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/composite-wing)
 
-To Be Added
+[<img
+  src="composite-wing/wing-static-analysis.png"
+  width="500">
+](composite-wing/)
 
 ## 11. [Shock Spectrum Response Analysis of Composite Pressure Vessel](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
