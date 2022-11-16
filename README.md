@@ -125,7 +125,7 @@ The stress-strain curves of the finite element model of a single element subject
 **Executive Summary**: TO BE ADDED
 
 [<img
-  src="composite-wing/wing-static-analysis.png"
+  src="composite-wing/composite-wing-static-analysis.png"
   width="500">
 ](composite-wing/)
 
