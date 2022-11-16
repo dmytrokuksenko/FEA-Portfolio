@@ -9,8 +9,8 @@ The plate is modeled as a transversely isotropic composite material in the frame
 Table 1. Material properties of the AS4/9310 CFRP composite constituents.
 
 | Material | E<sub>1</sub> (GPa)| E<sub>2</sub> (GPa) | G<sub>12</sub> (GPa) | G<sub>23</sub> (GPa)| ν<sub>12</sub> | ν<sub>23</sub> |
-|----------|----------|----------|----------|----------|----------|----------|
-| AS4/9310 |  133.86  |  7.706   |  4.306   |   2.76   |   0.3    |   0.396  |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| AS4/9310 |133.86|7.706|4.306|2.76|0.3|0.396|
 
 
 CalculiX has built-in capabilities to simulate the response of a composite material by either directly specifying the components of a stiffness tensor or by defining engineering constants. However, the simulation of damage initiation and propagation in composites can be accomplished only by deploying user-defined material model. The CalculiX user manual guidelines on the implementation of custom material models, but an in-depth description of the necessary steps is out of scope for this report. A ready-to-use ABAQUS Linde user material model for damage initiation and propagation in composites has been incorporated "as-is" into CalculiX to compare results [5].
@@ -23,11 +23,11 @@ Figure 1. Symmetric part of a simply supported composite plate discretized with 
 
 Table 2. Boundary conditions for the node sets of the composite plate under investigation.
 
-|         Node Set        | Displacement / Rotation |
-|-------------------------|-------------------------|
-|           X-, Y-        |        $u_3=0$          |
-|             X+          |  $u_1=0$, $u_2(\theta)=0$, $u_3(\theta)=0$   |
-|             Y+          |  $u_2=0$, $u_1(\theta)=0$, $u_3(\theta)=0$   |
+|Node Set|Displacement/Rotation|
+|:---:|:---:|
+|X-, Y-|$u_3=0$|
+|X+|$u_1=0$, $u_2(\theta)=0$, $u_3(\theta)=0$|
+|Y+|$u_2=0$, $u_1(\theta)=0$, $u_3(\theta)=0$|
 
 
 Figure 2a-d shows simulation results of the composite plate subjected to the uniform pressure. Both material models, built-in and Linde, accurately predicts the maxim displacement of the composite plate. The maximum displacement, 17.45 mm, appears in the middle of the composite plate. The difference between von Mises stress distributions between the current model and the benchmark model is almost indistinguishable.
@@ -41,9 +41,9 @@ Table 3 shows a comparison between predicted maximum displacement, u<sub>3</sub>
 
 Table 3. Predicted maximum displacement in the composite plate for built-in and Linde material models.
 
-|          | Barbero et al [6] | Built-in CalculiX | Linde ABAQUS |
-|----------|-------------------|-------------------|--------------|
-| $u_3$ (mm)  |        17.43      |        17.45      |      17.45   |
+|| Barbero et al [6] | Built-in CalculiX | Linde ABAQUS |
+|:---:|:---:|:---:|:---:|
+| $u_3$ (mm) |17.43|17.45|17.45|
 
 ## References
 
