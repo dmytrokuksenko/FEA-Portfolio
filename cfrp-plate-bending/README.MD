@@ -1,12 +1,14 @@
 # Composite Plate under Uniform Pressure
 
+### Introduction
+
 The validation of the built-in and custom material model for fiber-reinforced plastic composites begins with the finite element analysis of a simply supported plate subjected to the uniform pressure. The plate has a width of 4,000 mm and a length of 2,000 mm. The thickness of the plate is 10 mm.
 
 The geometry of the plate is generated in Cubit, a commercial software package for advance meshing of complex structures [2]. Second-order shell finite elements (SR8) are chosen to discretize the plate for the numerical analysis. The finite element model is imported into the PrePoMax, the advanced pre- and post-processing graphical user interface for the open-source finite element solver CalculiX [3,4].
 
 The plate is modeled as a transversely isotropic composite material in the framework of linear elasticity. The effective elastic properties of a single AS4/9310 lamina are outlined in Table 1.
 
-Table 1. Material properties of the AS4/9310 CFRP composite constituents.
+*Table 1. Material properties of the AS4/9310 CFRP composite constituents.*
 
 | Material | E<sub>1</sub> (GPa)| E<sub>2</sub> (GPa) | G<sub>12</sub> (GPa) | G<sub>23</sub> (GPa)| ν<sub>12</sub> | ν<sub>23</sub> |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -19,9 +21,9 @@ Figure 1 depicts a finite element model of the plate highlighting the node sets 
 
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/deflection-plate-mesh.png "")
 
-Figure 1. Symmetric part of a simply supported composite plate discretized with the second-order shell finite elements (S8R). The node sets for the prescription of boundary conditions are also highlighted.
+**Figure 1.** Symmetric part of a simply supported composite plate discretized with the second-order shell finite elements (S8R). The node sets for the prescription of boundary conditions are also highlighted.
 
-Table 2. Boundary conditions for the node sets of the composite plate under investigation.
+*Table 2. Boundary conditions for the node sets of the composite plate under investigation.*
 
 |Node Set|Displacement/Rotation|
 |:---:|:---:|
@@ -29,21 +31,27 @@ Table 2. Boundary conditions for the node sets of the composite plate under inve
 |X+|$u_1=0$, $u_2(\theta)=0$, $u_3(\theta)=0$|
 |Y+|$u_2=0$, $u_1(\theta)=0$, $u_3(\theta)=0$|
 
+### Results
 
 Figure 2a-d shows simulation results of the composite plate subjected to the uniform pressure. Both material models, built-in and Linde, accurately predicts the maxim displacement of the composite plate. The maximum displacement, 17.45 mm, appears in the middle of the composite plate. The difference between von Mises stress distributions between the current model and the benchmark model is almost indistinguishable.
 
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-built-in.png "")
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-Linde.png "")   
 
-Figure 2. Displacement and von Mises distributions in the finite element plate model simulated with a built-in material model (first row) and Linde material model (second row).
+**Figure 2.** Displacement and von Mises distributions in the finite element plate model simulated with a built-in material model (first row) and Linde material model (second row).
 
 Table 3 shows a comparison between predicted maximum displacement, u<sub>3</sub>, for built-in CalculiX and Linde material models.
 
-Table 3. Predicted maximum displacement in the composite plate for built-in and Linde material models.
+*Table 3. Predicted maximum displacement in the composite plate for built-in and Linde material models.*
 
 || Barbero et al [6] | Built-in CalculiX | Linde ABAQUS |
 |:---:|:---:|:---:|:---:|
 | $u_3$ (mm) |17.43|17.45|17.45|
+
+### Conclusions
+
+The ABAQUS Linde material can be used to simulate progressive damage in fiber-reinforced composites.
+
 
 ## References
 
