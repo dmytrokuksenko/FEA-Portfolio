@@ -96,12 +96,12 @@ The stress-strain curves of the finite element model of a single element subject
 **Executive Summary**: TO BE ADDED
 
 [<img
-  src="femap-assembly/assembly-mises.png"
+  src="femap-assembly/assembly-analysis.png"
   width="500">
 ](femap-assebmly/)
 
 
-## [8. Modal Frequency Analysis of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
+## [8. Modal Frequency Analysis of a Hinge](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
 
 **Executive Summary**: TO BE ADDED
 
@@ -130,6 +130,10 @@ The stress-strain curves of the finite element model of a single element subject
 ](composite-wing/)
 
 ## [11. Shock Spectrum Response Analysis of Composite Pressure Vessel](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+
+**Executive Summary**: TO BE ADDED
+
+## [12. Boeing Landing Gear Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
 **Executive Summary**: TO BE ADDED
 
