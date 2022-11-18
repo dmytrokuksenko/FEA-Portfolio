@@ -5,7 +5,7 @@
 
 Calibration of the FEA procedure starts with benchmarking of the numerical results with a known analytical solution. The KCS flywheel rotates at a high speed; thus, calibration is made against the solid disk rotating at a constant angular velocity. A schematic of a rotating disk with a hole in the center of the disk is depicted in Figure 1a. Figure 1b illustrates the free body diagram with stresses acting on a differential element due to a centrifugal force. The analytical solution assumes that the disk has a constant thickness that is much smaller than the outer diameter (~ 10 times).
 
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-portfolio/blob/main/solid-disk/solid_disk_schematics.png "")
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-portfolio/blob/main/solid_disk_fea_mesh.png "")
 **Figure 1.** (a) A schematic of a solid disk with a hole in the center subjected to centrifugal force, and (b) a differential element with a distribution of radial (σ_r) and tangential (σ_t) stress. [1].
 
 By solving the equations of equilibrium, compatibility equations, and the stress-strain relationship equations simultaneously, the exact solution for radial and tangential stress in a solid disk can be obtained [2]. 
