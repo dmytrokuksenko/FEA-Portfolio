@@ -11,17 +11,17 @@ Calibration of the FEA procedure starts with benchmarking of the numerical resul
 
 By solving the equations of equilibrium, compatibility equations, and the stress-strain relationship equations simultaneously, the exact solution for radial and tangential stress in a solid disk can be obtained [2]. 
 
-For a solid disk with a hole in the center made of isotropic material, e.g., stainless steel, stress variations along the radial and tangential directions are:
+For a solid disk with a hole in the center made of isotropic material, *e.g.*, stainless steel, stress variations along the radial and tangential directions are:
 
 	σ_t=(3+ν)/8⋅ρω^2⋅[r_out^2+r_in^2  +(〖r_in^2⋅r〗_out^2)/(r_out^2 )-r_in^2⋅  (3⋅ν+1)/(3+ν)  ]	(1)
 	σ_r=(3+ν)/8⋅ρω^2⋅[r_out^2+r^2  +(〖r_in^2⋅r〗_out^2)/(r_out^2 )-r^2  ]	(2)
 
 where 𝜌 is the material density, ω is the rotational speed, r_in is the inner radius of the disk, r_out is the outer radius of the disk, and ν is a Poisson ratio for the material under investigation. Note that neither tangential nor radial stress depends on the elasticity modulus. The material properties of a stainless steel – a solid disk material – are outlined in Table 1. The analytical solution is obtained for a disk rotating with the angular velocity ω=5,000 (rpm) which is equivalent to ω=523.6 (rad).
 
-Table 1. Material properties of the stainless steel and the geometry of the disk.
-TODO: Add nice table with mat properties
-Material	E(GPa)	ν	ρ(kg/m^3 )	r_in (m)	r_out (m)
-Stainless Steel	210	0.3	7850	0.0508	0.15
+*Table 1.* Material properties of the stainless steel and the geometry of the disk.
+| Material | $\sigma (GPa)$ | $\nu$ | $\rho (kg/m^3)$| $r_in (m)$ | $r_out (m)$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Stainless Steel|210|0.3|7850|0.0508|0.15|
 
 A variation of tangential 𝜎𝑡 and radial 𝜎𝑟 stress in a stainless steel hollow disk rotating at ω=5,000 rpm is shown in Figure 2. The maximum tangential stress occurs in the inner surface of the disk and steadily decreases as it propagates to the outer surface. The radial stress is much smaller than the tangential stress. The maximum stress occurs at r=√(r_in⋅r_out).
  
