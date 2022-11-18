@@ -1,16 +1,16 @@
 # Finite Element Analysis (FEA) Projects
 
-A collection of Finite Element Analysis (FEA) projects covering static and dynamic analysis of linear and nonlinear behavior of composite (fiber-reinforced plastics) and metallic structures.
+A collection of Finite Element Analysis (FEA) projects covering linear & nonlinear static stress analysis, vibration analysis and buckling analysis of composite & metallic structures.
 
 **Technical Stack**
 
 *3D CAD*: Autodesk Fusion 360, Cubit
 
-*FEA Software*: FEMAP, NX-NASTRAN, CalculiX (ABAQUS-like open source software), PrePoMax 
+*FEA Software*: FEMAP, NASTRAN, CalculiX (ABAQUS-like open source software), PrePoMax 
 
 *Programming Languages*: Python, FORTRAN
 
-## [1. Composite Plate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
+## [1. Composite Laminate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
 **Executive Summary**: TO BE ADDED
 
