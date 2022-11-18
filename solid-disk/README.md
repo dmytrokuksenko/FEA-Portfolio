@@ -1,12 +1,14 @@
-## Introduction
-umerical analysis on the flywheel rotor assembly is performed in the open-source FEA software package CalculiX [1]. The solver is capable of linear and nonlinear static and dynamic analysis as well as coupled thermo-mechanical analysis. Mesh generation, model preparation, and post-processing of the results can be done in another open-source software package, GraphiX, developed by Klaus Witting. It enables the user to create the geometry of the model, to assign boundary conditions, to generate mech, and to visualize the FEA results, all in 3D. The pre- and post-processing capabilities of GraphiX fall behind commercial FEA packages, e.g., Abaqus or MSC Marc, however, it has the essential tools that are sufficient to meet current simulation needs. Another open-source software package, PrePoMax, developed by Matej Borovinšek can be used as an alternative for either commercial software packages or GraphiX [2]. It enables pre- and post-processing of FEA results in a custom graphical user interface (GUI). PrePoMax exploits CalculiX at the back end to solve governing equations.
+# Stress Distribution in a Hollow Rotating Disk
+
+
+### Introduction
 
 Calibration of the FEA procedure starts with benchmarking of the numerical results with a known analytical solution. The KCS flywheel rotates at a high speed; thus, calibration is made against the solid disk rotating at a constant angular velocity. A schematic of a rotating disk with a hole in the center of the disk is depicted in Figure 1a. Figure 1b illustrates the free body diagram with stresses acting on a differential element due to a centrifugal force. The analytical solution assumes that the disk has a constant thickness that is much smaller than the outer diameter (~ 10 times).
 
-TODO: Add figure 1
-Figure 1. (a) A schematic of a solid disk with a hole in the center subjected to centrifugal force, and (b) a differential element with a distribution of radial (σ_r) and tangential (σ_t) stress. [6].
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-portfolio/blob/main/solid-disk/solid disk schematics.png "")
+**Figure 1.** (a) A schematic of a solid disk with a hole in the center subjected to centrifugal force, and (b) a differential element with a distribution of radial (σ_r) and tangential (σ_t) stress. [1].
 
-By solving the equations of equilibrium, compatibility equations, and the stress-strain relationship equations simultaneously, the exact solution for radial and tangential stress in a solid disk can be obtained [7]. 
+By solving the equations of equilibrium, compatibility equations, and the stress-strain relationship equations simultaneously, the exact solution for radial and tangential stress in a solid disk can be obtained [2]. 
 
 For a solid disk with a hole in the center made of isotropic material, e.g., stainless steel, stress variations along the radial and tangential directions are:
 
@@ -49,18 +51,5 @@ TODO: Add figure 4
 Figure 4. The distribution of stresses in a solid disk: a) tangential (𝜎𝑡) stress, and b) radial (𝜎𝑟) stress.
 
 ## References
-1. Guido Dhondt & Klaus Witting, “CALCULIX: A Free Three-Dimensional Structural Finite Element Program”, accessed February 17, 2022, http://www.calculix.de/. 
-2. Matej Borovinšek, “PrePoMax”, accessed February 17, 2022, https://prepomax.fs.um.si/  
-3. Matej Borovinšek, “PrePoMax Documentation”, accessed February 17, 2022, https://gitlab.com/MatejB/PrePoMax 
-4. “CalculiX: Developers Area of CalculiX Finite Element Software”, accessed February 17, 2022, https://github.com/calculix 
-5. Abdul Mubeen. “15. Rotating Rings, Discs and Cylinders” In Mechanics of Solids, 2nd edition, 515-547. New Delhi: Pearson, 2011. 
-6. Sayem Uddin, “Finite element modeling and analysis of composite flywheel disk including effects of filament-winding mosaic pattern”. Doctoral Dissertation, The university of New South Wales, 2013.
-
-## Appendix A: Installation of the PrePoMax and CalculiX
-The installation of open-source packages can be a daunting and time-consuming endeavor. However, the benefits of open-source software outweigh this shortcoming. Sometimes, a step-by-step guide provided by the developers lacks guidelines on the essential installation steps. To circumvent this limitation, this section outlines the steps for the installation of PrePoMax and CalculiX.
-PrePoMax can be downloaded as a ZIP archive from [2]. Another alternative is the installation from source code that is available from Gitlab [3]. The former is the best way, since a ZIP archive contains a portable version of PrePoMax that doesn’t require installation. After unpacking the archive, one can run the executable file, PrePoMax.exe, to start working with the software package. A user manual can be found in [4].
-CalculiX can be installed either on Linux- or Windows-based machines. The source code is available on GitHub [5]. A Linux system can be installed on either a Virtual Machine, e.g., Oracle Virtual Box, or run on a Windows Subsystem for Linux (WSL). The latest version of the code can be either cloned from the master branch or downloaded as a TAR archive from the main GitHub page. After unpacking the archive, the next step is to allow all files to be executable by typing the following command.
-sudo chmod - R 777 ./*
-The necessary dependencies must be installed by executing the requirements.txt file with pip using the following command:
-pip3 install -r requirements.txt
-The aforementioned two steps should be sufficient to run the Linux executable. Of note, the source-code should be recompiled after altering any of the files or appending new files to the source code.
+1. Abdul Mubeen. “15. Rotating Rings, Discs and Cylinders” In Mechanics of Solids, 2nd edition, 515-547. New Delhi: Pearson, 2011. 
+2. Sayem Uddin, “Finite element modeling and analysis of composite flywheel disk including effects of filament-winding mosaic pattern”. Doctoral Dissertation, The university of New South Wales, 2013.
