@@ -5,7 +5,7 @@
 
 Calibration of the FEA procedure starts with benchmarking of the numerical results with a known analytical solution. The KCS flywheel rotates at a high speed; thus, calibration is made against the solid disk rotating at a constant angular velocity. A schematic of a rotating disk with a hole in the center of the disk is depicted in Figure 1a. Figure 1b illustrates the free body diagram with stresses acting on a differential element due to a centrifugal force. The analytical solution assumes that the disk has a constant thickness that is much smaller than the outer diameter (~ 10 times).
 
-![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-portfolio/blob/main/solid-disk/solid disk schematics.png "")
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-portfolio/blob/main/solid-disk/solid_disk_schematics.png "")
 **Figure 1.** (a) A schematic of a solid disk with a hole in the center subjected to centrifugal force, and (b) a differential element with a distribution of radial (σ_r) and tangential (σ_t) stress. [1].
 
 By solving the equations of equilibrium, compatibility equations, and the stress-strain relationship equations simultaneously, the exact solution for radial and tangential stress in a solid disk can be obtained [2]. 
@@ -24,8 +24,8 @@ Stainless Steel	210	0.3	7850	0.0508	0.15
 
 A variation of tangential 𝜎𝑡 and radial 𝜎𝑟 stress in a stainless steel hollow disk rotating at ω=5,000 rpm is shown in Figure 2. The maximum tangential stress occurs in the inner surface of the disk and steadily decreases as it propagates to the outer surface. The radial stress is much smaller than the tangential stress. The maximum stress occurs at r=√(r_in⋅r_out).
  
-TODO: Add figure 2
-Figure 2. The distribution of tangential (σ_t) and radial (σ_r) stress in a solid stainless steel hollow disk rotating at ω=5000 (rpm).
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-portfolio/blob/main/solid-disk/solid_disk_analytical_stress_graph.png "")
+**Figure 2.** The distribution of tangential (σ_t) and radial (σ_r) stress in a solid stainless steel hollow disk rotating at ω=5000 (rpm).
 
 The analytical solution for maximum tangential (σ_t) and radial (σ_t) stresses in a rotating disk are:
 	σ_(t,max)=(3+ν)/8⋅ρω^2⋅[r_in^2+r_out^2⋅ (1-ν)/(3+ν)  ]	(3)
@@ -41,15 +41,16 @@ The analytical approach works great for simple geometries; however, the availabi
 To benchmark the numerical results against the analytical solution, the distribution of stresses is performed via FEA in a rotating disk with a hole in the center. FEA analysis encompasses several essential pre-processing steps. The first essential step of the FEA procedure is to partition a CAD geometry into small 3D elements. Due to symmetry, only a quarter of a hollow solid disk is considered in the analysis. Of note, the model is generated in Autodesk Fusion and the pre-processing steps are performed in PrePoMax. A disk is meshed with first-order tetrahedral elements (C3D10). A meshed model of the quarter disk is shown in Figure 3. It contains 41,642 elements and 60,906 nodes. The nodes on the right-hand-side surface of the quarter disk are constrained to move in the x direction, i.e., u_1=0. The nodes on the left-hand-side surface are constrained to move in the z direction, i.e., u_3=0. To prevent the rigid body motion along the y axis, one node is restricted to move in the y direction (u_2=0). A centrifugal force due to angular rotation of the disk is prescribed as a body force. A solid disk consists of a homogeneous isotropic material with properties outlined in Table 1.
 
 
-TODO: Add figure 3 
-Figure 3. The quarter disk meshed with tetrahedral elements (C3D10) with symmetry boundary conditions subjected to centrifugal force due to high-speed rotation.
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-portfolio/blob/main/solid-disk/solid_disk_fea_mesh.png "")
+**Figure 3.** The quarter disk meshed with tetrahedral elements (C3D10) with symmetry boundary conditions subjected to centrifugal force due to high-speed rotation.
 The FEA analysis is performed using the CalculiX built-in iterative solver on an Intel i7-1065G7 CPU with 16 GB RAM installed. Only 2 CPU cores were used for analysis. The total computation time is ~ 25 s. The analysis is performed in the framework of linear elasticity, i.e., no large displacement or rotations are considered in the analysis. 
 Due to inability of PrePoMax to visualize stresses in cylindrical coordinates, the GraphiX software was used for visualization of the FEA results. Tangential and radial stresses are shown in Figure 4a and Figure 4b respectively. The maximum tangential stress is σ_(t,max)^FEA=41.6 (MPa), and the maximum radial stress is σ_(r,max)^FEA=8.8 (MPa). The FEA results are perfectly aligned which the analytical solution.
- 
 
-TODO: Add figure 4 
-Figure 4. The distribution of stresses in a solid disk: a) tangential (𝜎𝑡) stress, and b) radial (𝜎𝑟) stress.
+### Results
 
-## References
+![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-portfolio/blob/main/solid-disk/solid_disk_fea_mesh.png "")  
+**Figure 4.** The distribution of stresses in a solid disk: a) tangential (𝜎𝑡) stress, and b) radial (𝜎𝑟) stress.
+
+### References
 1. Abdul Mubeen. “15. Rotating Rings, Discs and Cylinders” In Mechanics of Solids, 2nd edition, 515-547. New Delhi: Pearson, 2011. 
 2. Sayem Uddin, “Finite element modeling and analysis of composite flywheel disk including effects of filament-winding mosaic pattern”. Doctoral Dissertation, The university of New South Wales, 2013.
