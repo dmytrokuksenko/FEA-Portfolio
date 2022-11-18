@@ -87,7 +87,12 @@ The stress-strain curves of the finite element model of a single element subject
 **Executive Summary**: TO BE ADDED
 
 [<img
-  src="solid-disk/solid disk analytical stress graph.png"
+  src="solid-disk/solid_disk_fea_results.png.png"
+  width="500">
+](solid-disk/)
+
+[<img
+  src="solid-disk/solid_disk_fea_results.png"
   width="500">
 ](solid-disk/)
 
