@@ -1,4 +1,4 @@
-# Finite Element Analysis (FEA) Projects
+# Finite Element Analysis (FEA) Portfolio
 
 A collection of Finite Element Analysis (FEA) projects covering linear & nonlinear static stress analysis, vibration analysis and buckling analysis of composite & metallic structures.
 
@@ -6,7 +6,7 @@ A collection of Finite Element Analysis (FEA) projects covering linear & nonline
 
 *3D CAD*: Autodesk Fusion 360, Cubit
 
-*FEA Software*: FEMAP, NASTRAN, CalculiX (ABAQUS-like open source software), PrePoMax 
+*FEA Software*: FEMAP (NASTRAN), CalculiX (ABAQUS-like open source software), PrePoMax 
 
 *Programming Languages*: Python, FORTRAN
 
