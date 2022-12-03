@@ -10,6 +10,7 @@ A collection of Finite Element Analysis (FEA) projects covering linear & nonline
 
 *Programming Languages*: Python, FORTRAN
 
+
 ## [1. Composite Laminate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
 **Executive Summary**: Simulations of fiber-reinforced plastic (FRP) composites remain a challenging task due to non-homogeneous mechanical properties and load-dependent failure mechanisms. Commercial software packages, *e.g.*, ABAQUS, NASTRAN, or MSC, have a wide repertoire of tools to predict the response of FRP composites. However, high cost precludes small and midsize companies to purchase commercial products. Open-source software packages offer an appealing alternative, but luck simulation tools. The response of a composite laminate is modeled in an open-source software solver CalculiX. A plate is modeled as a multidirectional laminate subjected to uniform pressure. The displacement field of the plate simulated in CalculiX agrees well with the results reported in the literature using commercial software. Verdict: CalculiX is suitable to simulate the response of composite structures.     
@@ -87,7 +88,7 @@ The stress-strain curves of the finite element model of a single element subject
 **Executive Summary**: TO BE ADDED
 
 [<img
-  src="solid-disk/solid_disk_fea_results.png.png"
+  src="solid-disk/solid_disk_analytical_stress_graph.png"
   width="500">
 ](solid-disk/)
 
@@ -96,7 +97,7 @@ The stress-strain curves of the finite element model of a single element subject
   width="500">
 ](solid-disk/)
 
-## [7. Assembly Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
+## [7. Static Analysis of the Assembly](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
 
 **Executive Summary**: TO BE ADDED
 
@@ -141,5 +142,3 @@ The stress-strain curves of the finite element model of a single element subject
 ## [12. Boeing Landing Gear Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
 **Executive Summary**: TO BE ADDED
-
-
