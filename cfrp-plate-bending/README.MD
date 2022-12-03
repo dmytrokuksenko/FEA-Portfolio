@@ -33,7 +33,7 @@ Figure 1 depicts a finite element model of the plate highlighting the node sets 
 
 ### Results
 
-Figure 2a-d shows simulation results of the composite plate subjected to the uniform pressure. Both material models, built-in and Linde, accurately predicts the maxim displacement of the composite plate. The maximum displacement, 17.45 mm, appears in the middle of the composite plate. The difference between von Mises stress distributions between the current model and the benchmark model is almost indistinguishable.
+Figure 2a-d shows the simulation results of the composite plate subjected to uniform pressure. Both material models, built-in and Linde, accurately predict the maxim displacement of the composite plate. The maximum displacement, 17.45 mm, appears in the middle of the composite plate. The difference between von Mises stress distributions between the current model and the benchmark model is almost indistinguishable.
 
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-built-in.png "")
 ![Alt text](https://github.com/dmytrokuksenko/finite-element-analysis-porftofolio/blob/main/cfrp-plate-bending/disp-stress-Linde.png "")   
@@ -50,8 +50,7 @@ Table 3 shows a comparison between predicted maximum displacement, u<sub>3</sub>
 
 ### Conclusions
 
-The ABAQUS Linde material can be used to simulate progressive damage in fiber-reinforced composites.
-
+The "as-is" ABAQUS Linde material model has been implemented in the open-source software package CalculiX. The predicted displacement in a simply supported CFRP shell predicted by the material model correlates well with the analytical solution available in the literature. The Linde material model can be used for the analysis of composites in the open-source software package CalculiX.
 
 ## References
 
