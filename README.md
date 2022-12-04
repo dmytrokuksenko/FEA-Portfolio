@@ -82,8 +82,21 @@ The static stress analysis and linear buckling analysis of a composite wing subj
 A distribution of a Hoffman failure index in a composite wing subjected to drag and lift forces. 
 </p>
 
-### [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
+### [Modal Frequency Analysis of a Hinge Bracket](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
 
+The natural frequency analysis and modal analysis of a hinge bracket. The model is excited by a unit inpulse in the frequence domain to analyze the response of the hinge bracket FEA model.
+
+<p align="center">
+<img
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/femap-modal-frequency-hinge/hinge-natural-frequencies.png"
+ width="800">
+</p>
+
+<p align="center">
+Natural friequencies and modal shapes of a hinge bracket.
+</p>
+
+### [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
 
 [<img
   src="cfrp-shell-buckling/fea-buckling-composite.png"
@@ -107,19 +120,10 @@ A distribution of a Hoffman failure index in a composite wing subjected to drag 
 
 ### [Static Analysis of the Metallic Assembly](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
 
-
 [<img
   src="femap-assembly/assembly-analysis.png"
   width="500">
 ](femap-assebmly/)
-
-
-### [Modal Frequency Analysis of a Hinge](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
-
-[<img
-  src="femap-modal-frequency-hinge/hinge-normal-frequencies.png"
-  width="500">
-](femap-modal-frequency-hinge/)
 
 
 ### [Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
