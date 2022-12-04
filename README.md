@@ -12,7 +12,7 @@ Selected FEA projects that cover linear & nonlinear static analysis, buckling an
 
 *Programming Languages*: Python, FORTRAN
 
-### [1. Composite Laminate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
+### [Composite Laminate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
 This project is designed to assess the performance of the Linde material model in CalculiX. The model is designed to predict damage initiation and propagation in carbon composites. It's implemeted in CalculiX via the FORTRAN user subroutine. A simply supported laminate subjected to uniform pressure is used to assess the peformance of the Linde material model.     
 
@@ -26,7 +26,7 @@ This project is designed to assess the performance of the Linde material model i
 Displecement (left) and von Mises stress (right) in the carbon composite laminate subjected to uniform pressure.
 </p>
 
-### [2. Three-Point Bending of a Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-three-point-bend)
+### [Three-Point Bending of a Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-three-point-bend)
 
 The stress analysis of the fiber-reinforced composite laminate subjected to three-point bending. The analysis evaluates the performance of the Linde material model implemented via the FORTRAN user subroutine in CalculiX. 
 
@@ -40,9 +40,9 @@ The stress analysis of the fiber-reinforced composite laminate subjected to thre
 Prediction of the $\sigma_{11}$ stress distribution in a carbon composite laminate subjected to three-point bending using built-in (left) and Linde (right) material models.
 </p>
 
-### [3. Filament-Wound Thick Pipe under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cylindrical-shell)
+### [Filament-Wound Thick Pipe under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cylindrical-shell)
 
-Stress analysis of a thick pipe consisting of steel (inner portrion) and a filament-wound carbon composite (outer portion). The pipe is subjected to internal pressure. The project is designed to evaluate the assginment of orthotropic material properties in cylindrical coordiante system using the open-source software CalculiX.  
+Stress analysis of a thick pipe consisting of steel (inner portrion) and a filament-wound carbon composite (outer portion). The pipe is subjected to internal pressure. The project is designed to evaluate the assginment of orthotropic material properties in cylindrical coordiante system using the open-source FEA software CalculiX.  
 
 <p align="center">
 <img
@@ -54,7 +54,7 @@ Stress analysis of a thick pipe consisting of steel (inner portrion) and a filam
 The prediction of $\sigma_{\theta}$ stress in a pressure pipe made out of steel and filament-wound carbon composite.
 </p>
 
-### [4. User Material Models (UMAT) for Damage Initiation and Propagation in Carbon Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
+### [User Material Models (UMAT) for Damage Initiation and Propagation in Carbon Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
 Complex failure mechanisms of carbon composites necessitate the application of advanced material models to accurately simulate damage initiation and propagation. This project describes the implementation and performance assessment of several custom material models - Maximum Stress, Maximum Strain, Tsai-Wu, Linde, and Hashin, for prediction of damage in carbon composites. 
 
@@ -68,9 +68,22 @@ Complex failure mechanisms of carbon composites necessitate the application of a
 Prediction of damage initiation and propagaiton using different UMATs for carbon composites in a single-element FEA model subjected to displacement in longitudinal direction(fibers' direction). 
 </p>
 
-### [5. Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
+### [Composite Wing Design, Analysis, and Optimization](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/composite-wing)
 
-**Executive Summary**: TO BE ADDED
+The static stress analysis and linear buckling analysis of a composite wing subjected to drag and lift forces. The desing optimization of the carbon composite wing is performed to avoid buckling under the applied forces.
+
+<p align="center">
+<img
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/composite-wing/composite-wing-static-analysis.png"
+ width="800">
+</p>
+
+<p align="center">
+A distribution of a Hoffman failure index in a composite wing subjected to drag and lift forces. 
+</p>
+
+### [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
+
 
 [<img
   src="cfrp-shell-buckling/fea-buckling-composite.png"
@@ -79,9 +92,8 @@ Prediction of damage initiation and propagaiton using different UMATs for carbon
 ](cfrp-shell-buckling/)
 
 
-### [6. Stress Distribution in a Solid Circular Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/solid-disk)
+### [Stress Distribution in a Solid Circular Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/solid-disk)
 
-**Executive Summary**: TO BE ADDED
 
 [<img
   src="solid-disk/solid_disk_analytical_stress_graph.png"
@@ -93,9 +105,8 @@ Prediction of damage initiation and propagaiton using different UMATs for carbon
   width="500">
 ](solid-disk/)
 
-### [7. Static Analysis of the Assembly](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
+### [Static Analysis of the Metallic Assembly](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
 
-**Executive Summary**: TO BE ADDED
 
 [<img
   src="femap-assembly/assembly-analysis.png"
@@ -103,9 +114,7 @@ Prediction of damage initiation and propagaiton using different UMATs for carbon
 ](femap-assebmly/)
 
 
-### [8. Modal Frequency Analysis of a Hinge](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
-
-**Executive Summary**: TO BE ADDED
+### [Modal Frequency Analysis of a Hinge](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
 
 [<img
   src="femap-modal-frequency-hinge/hinge-normal-frequencies.png"
@@ -113,28 +122,14 @@ Prediction of damage initiation and propagaiton using different UMATs for carbon
 ](femap-modal-frequency-hinge/)
 
 
-### [9. Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
-
-**Executive Summary**: TO BE ADDED
+### [Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
 [<img
   src="femap-random-response-hinge/random-vibration-hinge.png"
   width="500">
 ](femap-random-response-hinge/)
 
-### [10. Composite Wing Design & Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/composite-wing)
 
-**Executive Summary**: 
+### [Shock Spectrum Response Analysis of Composite Pressure Vessel](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
-[<img
-  src="composite-wing/composite-wing-static-analysis.png"
-  width="500">
-](composite-wing/)
-
-### [11. Shock Spectrum Response Analysis of Composite Pressure Vessel](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
-
-**Executive Summary**: TO BE ADDED
-
-### [12. Boeing Landing Gear Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
-
-**Executive Summary**: TO BE ADDED
+### [Boeing Landing Gear Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
