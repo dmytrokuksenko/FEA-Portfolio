@@ -1,4 +1,4 @@
-# Finite Element Analysis (FEA) Portfolio
+<h1 align="center">Finite Element Analysis (FEA) Portfolio</h1>
 
 A collection of Finite Element Analysis (FEA) projects covering linear & nonlinear static stress analysis, vibration analysis and buckling analysis of composite & metallic structures.
 
@@ -28,25 +28,17 @@ Displecement (left) and von Mises stress (right) in the carbon composite laminat
 
 ### [2. Three-Point Bending of a Unidirectional Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-three-point-bend)
 
-**Executive Summary**: TO BE ADDED
+This projects compares the predi
 
-[<img
-  src="cfrp-three-point-bend/three-point-bending-disp.png"
-  width="750"
-  title="Composite Plate with Built-In Calculix Material Properties">
-](cfrp-three-point-bend/)
+<p align="center">
+<img
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/cfrp-three-point-bend/three-point-bending-s11.png"
+ width="800">
+</p>
 
-[<img
-  src="cfrp-three-point-bend/three-point-bending-s11.png"
-  width="750"
-  title="Composite Plate with Built-In Calculix Material Properties">
-](cfrp-three-point-bend/)
-
-[<img
-  src="cfrp-three-point-bend/three-point-bending-s13.png"
-  width="750"
-  title="Composite Plate with Built-In Calculix Material Properties">
-](cfrp-three-point-bend/)
+<p align="center">
+Displecement (left) and von Mises stress (right) in the carbon composite laminate subjected to uniform pressure.
+</p>
 
 ### [3. Composite Cylindrical Shell under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cylindrical-shell)
 
