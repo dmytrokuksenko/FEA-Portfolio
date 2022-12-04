@@ -1,4 +1,4 @@
-<h1 align=center> Modal Analysis of a Hinge </h1> 
+<h1 align=center> Hinge Bracket Modal Analysis </h1> 
 
 ### Introduction
 
