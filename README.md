@@ -1,8 +1,8 @@
-<h1 align="center">Finite Element Analysis (FEA) Portfolio</h1>
+<h1 align="center">Finite Element Analysis (FEA) Portfolio</h1> 
 
-A collection of Finite Element Analysis (FEA) projects covering linear & nonlinear static stress analysis, vibration analysis and buckling analysis of composite & metallic structures.
+Selected FEA projects that cover linear & nonlinear static analysis, buckling analysis, dynamic transient and frequency analysis, and modal analysis of composite & metallic structures.
 
-**Technical Stack**
+**Technical Stack:**
 
 *3D CAD*: Autodesk Fusion 360, Cubit
 
@@ -10,10 +10,9 @@ A collection of Finite Element Analysis (FEA) projects covering linear & nonline
 
 *Programming Languages*: Python, FORTRAN
 
-
 ### [1. Composite Laminate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
-This project is designed to assess the performance of the Linde material model in CalculiX. The model is designed to predict damage initiation and propagation in carbon composites. It's implemeted in CalculiX via Fortran user subroutine. A simply supported laminate subjected to uniform pressure is used to assess the peformance of the Linde material model.     
+This project is designed to assess the performance of the Linde material model in CalculiX. The model is designed to predict damage initiation and propagation in carbon composites. It's implemeted in CalculiX via the FORTRAN user subroutine. A simply supported laminate subjected to uniform pressure is used to assess the peformance of the Linde material model.     
 
 <p align="center">
 <img
@@ -25,10 +24,9 @@ This project is designed to assess the performance of the Linde material model i
 Displecement (left) and von Mises stress (right) in the carbon composite laminate subjected to uniform pressure.
 </p>
 
+### [2. Three-Point Bending of a Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-three-point-bend)
 
-### [2. Three-Point Bending of a Unidirectional Composite Laminate](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-three-point-bend)
-
-This projects compares the predi
+The stress analysis of the fiber-reinforced composite laminate subjected to three-point bending. The analysis evaluates the performance of the Linde material model implemented via the FORTRAN user subroutine in CalculiX. 
 
 <p align="center">
 <img
@@ -37,7 +35,7 @@ This projects compares the predi
 </p>
 
 <p align="center">
-Displecement (left) and von Mises stress (right) in the carbon composite laminate subjected to uniform pressure.
+Prediction of the $\sigma_{11}$ stress distribution in a carbon composite laminate subjected to three-point bending using built-in (left) and Linde (right) material models.
 </p>
 
 ### [3. Composite Cylindrical Shell under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cylindrical-shell)
@@ -51,7 +49,7 @@ Displecement (left) and von Mises stress (right) in the carbon composite laminat
 ](cylindrical-shell/)
 
 
-### [4. User Material Subroutine for Damage Initiation & Propagation in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
+### [4. UMAT for Damage Initiation and Propagation in Fiber-Reinforced Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
 **Executive Summary**: TO BE ADDED
 
