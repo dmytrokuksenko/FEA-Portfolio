@@ -1,12 +1,14 @@
-<h1 align="center">Finite Element Analysis (FEA) Portfolio</h1> 
+<h1 align="center">Finite Element Analysis (FEA) Project Portfolio</h1> 
 
 Selected FEA projects that cover linear & nonlinear static analysis, buckling analysis, dynamic transient and frequency analysis, and modal analysis of composite & metallic structures.
 
 **Technical Stack:**
 
-*3D CAD*: Autodesk Fusion 360, Cubit
+*3D CAD*: Autodesk Fusion, Cubit
 
-*FEA Software*: FEMAP (NASTRAN), PrePoMax (CalculiX - ABAQUS-like finite element solver) 
+*FEA Solvers*: NASTRAN, CalculiX - ABAQUS-like finite element solver
+
+*Pre- & Post-Processing Software*: FEMAP, PrePoMax
 
 *Programming Languages*: Python, FORTRAN
 
@@ -38,28 +40,33 @@ The stress analysis of the fiber-reinforced composite laminate subjected to thre
 Prediction of the $\sigma_{11}$ stress distribution in a carbon composite laminate subjected to three-point bending using built-in (left) and Linde (right) material models.
 </p>
 
-### [3. Composite Cylindrical Shell under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cylindrical-shell)
+### [3. Filament-Wound Thick Pipe under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cylindrical-shell)
 
-**Executive Summary**: TO BE ADDED
+Stress analysis of a thick pipe consisting of steel (inner portrion) and a filament-wound carbon composite (outer portion). The pipe is subjected to internal pressure. The project is designed to evaluate the assginment of orthotropic material properties in cylindrical coordiante system using the open-source software CalculiX.  
 
-[<img
-  src="cylindrical-shell/cylindrical-shell-fea-results.png"
-  width="750"
-  title="Composite Plate with Built-In Calculix Material Properties">
-](cylindrical-shell/)
+<p align="center">
+<img
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/cylindrical-shell/cylindrical-shell-fea-results.png"
+ width="800">
+</p>
 
+<p align="center">
+The prediction of $\sigma_{\theta}$ stress in a pressure pipe made out of steel and filament-wound carbon composite.
+</p>
 
-### [4. UMAT for Damage Initiation and Propagation in Fiber-Reinforced Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
+### [4. UMAT for Damage Initiation and Propagation in Carbon Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
-**Executive Summary**: TO BE ADDED
+Complex failure mechanisms of carbon composites necessitate the application of advanced material models to accurately simulate damage initiation and propagation. This project describes the implementation and performance assessment of several custom material models - Maximum Stress, Maximum Strain, Tsai-Wu, Linde, and Hashin, for prediction of damage in carbon composites. 
 
-[<img
-  src="umat-single-element/single-element-umat-stress-strain.png"
-  width="500"
-  title="Composite Plate with Built-In Calculix Material Properties">
-](umat-single-element/)
+<p align="center">
+<img
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/umat-single-element/single-element-umat-stress-strain.png"
+ width="500">
+</p>
 
-The stress-strain curves of the finite element model of a single element subjected to the displacement in the fiber’s direction
+<p align="center">
+Prediction of damage initiation and propagaiton using different UMAT material model for carbon composites in a single-element FEA model subjected to displacement in longitudinal (fibers' direction). 
+</p>
 
 ### [5. Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
 
