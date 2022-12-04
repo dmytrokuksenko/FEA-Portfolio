@@ -48,7 +48,7 @@ Displecement (left) and von Mises stress (right) in the carbon composite laminat
   title="Composite Plate with Built-In Calculix Material Properties">
 ](cfrp-three-point-bend/)
 
-## [3. Composite Cylindrical Shell under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cylindrical-shell)
+### [3. Composite Cylindrical Shell under Internal Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cylindrical-shell)
 
 **Executive Summary**: TO BE ADDED
 
@@ -59,7 +59,7 @@ Displecement (left) and von Mises stress (right) in the carbon composite laminat
 ](cylindrical-shell/)
 
 
-## [4. User Material Subroutine for Damage Initiation & Propagation in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
+### [4. User Material Subroutine for Damage Initiation & Propagation in Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
 **Executive Summary**: TO BE ADDED
 
@@ -71,7 +71,7 @@ Displecement (left) and von Mises stress (right) in the carbon composite laminat
 
 The stress-strain curves of the finite element model of a single element subjected to the displacement in the fiber’s direction
 
-## [5. Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
+### [5. Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
 
 **Executive Summary**: TO BE ADDED
 
@@ -82,7 +82,7 @@ The stress-strain curves of the finite element model of a single element subject
 ](cfrp-shell-buckling/)
 
 
-## [6. Stress Distribution in a Solid Circular Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/solid-disk)
+### [6. Stress Distribution in a Solid Circular Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/solid-disk)
 
 **Executive Summary**: TO BE ADDED
 
@@ -96,7 +96,7 @@ The stress-strain curves of the finite element model of a single element subject
   width="500">
 ](solid-disk/)
 
-## [7. Static Analysis of the Assembly](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
+### [7. Static Analysis of the Assembly](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
 
 **Executive Summary**: TO BE ADDED
 
@@ -106,7 +106,7 @@ The stress-strain curves of the finite element model of a single element subject
 ](femap-assebmly/)
 
 
-## [8. Modal Frequency Analysis of a Hinge](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
+### [8. Modal Frequency Analysis of a Hinge](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-modal-frequency-hinge)
 
 **Executive Summary**: TO BE ADDED
 
@@ -116,7 +116,7 @@ The stress-strain curves of the finite element model of a single element subject
 ](femap-modal-frequency-hinge/)
 
 
-## [9. Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+### [9. Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
 **Executive Summary**: TO BE ADDED
 
@@ -125,7 +125,7 @@ The stress-strain curves of the finite element model of a single element subject
   width="500">
 ](femap-random-response-hinge/)
 
-## [10. Composite Wing Design & Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/composite-wing)
+### [10. Composite Wing Design & Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/composite-wing)
 
 **Executive Summary**: 
 
@@ -134,10 +134,10 @@ The stress-strain curves of the finite element model of a single element subject
   width="500">
 ](composite-wing/)
 
-## [11. Shock Spectrum Response Analysis of Composite Pressure Vessel](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+### [11. Shock Spectrum Response Analysis of Composite Pressure Vessel](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
 **Executive Summary**: TO BE ADDED
 
-## [12. Boeing Landing Gear Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
+### [12. Boeing Landing Gear Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
 **Executive Summary**: TO BE ADDED
