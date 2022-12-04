@@ -133,7 +133,6 @@ Natural friequencies and modal shapes of a hinge bracket.
   width="500">
 ](femap-random-response-hinge/)
 
-
 ### [Shock Spectrum Response Analysis of Composite Pressure Vessel](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
 ### [Boeing Landing Gear Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
