@@ -54,7 +54,7 @@ Stress analysis of a thick pipe consisting of steel (inner portrion) and a filam
 The prediction of $\sigma_{\theta}$ stress in a pressure pipe made out of steel and filament-wound carbon composite.
 </p>
 
-### [4. UMAT for Damage Initiation and Propagation in Carbon Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
+### [4. User Material Models (UMAT) for Damage Initiation and Propagation in Carbon Composites](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/umat-single-element)
 
 Complex failure mechanisms of carbon composites necessitate the application of advanced material models to accurately simulate damage initiation and propagation. This project describes the implementation and performance assessment of several custom material models - Maximum Stress, Maximum Strain, Tsai-Wu, Linde, and Hashin, for prediction of damage in carbon composites. 
 
@@ -65,7 +65,7 @@ Complex failure mechanisms of carbon composites necessitate the application of a
 </p>
 
 <p align="center">
-Prediction of damage initiation and propagaiton using different UMAT material model for carbon composites in a single-element FEA model subjected to displacement in longitudinal (fibers' direction). 
+Prediction of damage initiation and propagaiton using different UMATs for carbon composites in a single-element FEA model subjected to displacement in longitudinal direction(fibers' direction). 
 </p>
 
 ### [5. Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
