@@ -104,19 +104,19 @@ Natural friequencies and modal shapes of a hinge bracket.
   title="Composite Plate with Built-In Calculix Material Properties">
 ](cfrp-shell-buckling/)
 
+### [Stress Distribution in a Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/solid-disk)
 
-### [Stress Distribution in a Solid Circular Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/solid-disk)
+Static analysis of a solid metallic hollow disk subjected to a centrifugal force. The distribution of stresses (tangential and radial) are predicted by FEA and benchmarked against the analytical solution.
 
+<p align="center">
+<img
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/solid-disk/solid-disk-main-readme.png"
+ width="800">
+</p>
 
-[<img
-  src="solid-disk/solid_disk_analytical_stress_graph.png"
-  width="500">
-](solid-disk/)
-
-[<img
-  src="solid-disk/solid_disk_fea_results.png"
-  width="500">
-](solid-disk/)
+<p align="center">
+Distribution of a radial and tangential stresses in a solid metallic disk using analytical solution (left) and FEA model (right). 
+</p>
 
 ### [Static Analysis of the Metallic Assembly](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
 
