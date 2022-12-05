@@ -98,11 +98,17 @@ Natural friequencies and modal shapes of a hinge bracket.
 
 ### [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
 
-[<img
-  src="cfrp-shell-buckling/fea-buckling-composite.png"
-  width="750"
-  title="Composite Plate with Built-In Calculix Material Properties">
-](cfrp-shell-buckling/)
+Buckling analysis of a compsosite and metallic shell to predict its structural stability. 
+
+<p align="center">
+<img
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/cfrp-shell-buckling/fea-buckling-composite.png"
+ width="800">
+</p>
+
+<p align="center">
+
+</p>
 
 ### [Stress Distribution in a Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/solid-disk)
 
