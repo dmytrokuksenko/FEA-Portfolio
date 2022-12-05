@@ -96,20 +96,6 @@ The natural frequency analysis and modal analysis of a hinge bracket. The model 
 Natural friequencies and modal shapes of a hinge bracket.
 </p>
 
-### [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
-
-Buckling analysis of a compsosite and metallic shell to predict its structural stability. 
-
-<p align="center">
-<img
-  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/cfrp-shell-buckling/fea-buckling-composite.png"
- width="800">
-</p>
-
-<p align="center">
-
-</p>
-
 ### [Stress Distribution in a Rotating Disk](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/solid-disk)
 
 Static analysis of a solid metallic hollow disk subjected to a centrifugal force. The distribution of stresses (tangential and radial) are predicted by FEA and benchmarked against the analytical solution.
@@ -124,13 +110,25 @@ Static analysis of a solid metallic hollow disk subjected to a centrifugal force
 Distribution of a radial and tangential stresses in a solid metallic disk using analytical solution (left) and FEA model (right). 
 </p>
 
+### [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
+
+Linear buckling analysis of a carbon composite shell under the applied load. The analysis is performed for a layup with 45 degress symmetric orientation of plies. First three buckling factors with the corresponding shapes. 
+
+<p align="center">
+<img
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/cfrp-shell-buckling/fea-buckling-composite.png"
+ width="800">
+</p>
+
+<p align="center">
+</p>
+
 ### [Static Analysis of the Metallic Assembly](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
 
 [<img
   src="femap-assembly/assembly-analysis.png"
   width="500">
 ](femap-assebmly/)
-
 
 ### [Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
