@@ -131,6 +131,8 @@ Linear buckling analysis of a carbon composite shell under the applied load. The
 
 ### [Static, Buckling, & Modal Analysis of a Composite Inner Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/inner-shell)
 
+The analysis of a composite flywheel energy storage subjected to cenrtrigufal force. 
+
 <p align="center">
 <img
   src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/inner-shell/inner-shell-FI.png"
