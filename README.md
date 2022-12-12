@@ -112,7 +112,7 @@ Distribution of a radial and tangential stresses in a solid metallic disk using 
 
 ### [Buckling Analysis of a Cylindrical Composite Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-shell-buckling)
 
-Linear buckling analysis of a carbon composite shell under the applied load. The analysis is performed for a layup with 45 degress symmetric orientation of plies. First three buckling factors with the corresponding shapes. 
+Linear buckling analysis of an aluminum and carbon composite cylindrical shells under the applied compression force. The composite shell has a hoop layup (90 degrees orientation of fibers). 
 
 <p align="center">
 <img
@@ -126,10 +126,17 @@ First buckling mode of an aluminum and carbon composite (hoop wrap) thin cylindr
 
 ### [Static Analysis of a Metallic Assembly](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
 
-[<img
-  src="femap-assembly/assembly-analysis.png"
-  width="500">
-](femap-assebmly/)
+Static stress analysis of the metallic assebmly. The assembly contains of two pieces with a glued connection between them.
+
+<p align="center">
+<img
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/femap-assembly/assebmly-analysis-mises .png"
+ width="800">
+</p>
+
+<p align="center">
+FEA of a glued assebmly pieces in FEMAP. 
+</p>
 
 ### [Static, Buckling, & Modal Analysis of a Composite Inner Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/inner-shell)
 
@@ -144,15 +151,4 @@ The analysis of a composite flywheel energy storage subjected to cenrtrigufal fo
 <p align="center">
 A deformed FEA model of the flywheel rotor assembly depicting the failure index of 2D inner shell predicted by Hoffman Failure Index. 
 </p>
-
-### [Random Response of a Hinge Model](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
-
-[<img
-  src="femap-random-response-hinge/random-vibration-hinge.png"
-  width="500">
-](femap-random-response-hinge/)
-
-### [Shock Spectrum Response Analysis of Composite Pressure Vessel](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
-
-### [Boeing Landing Gear Stress Analysis](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-random-response-hinge)
 
