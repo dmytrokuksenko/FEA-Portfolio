@@ -116,10 +116,12 @@ Linear buckling analysis of a carbon composite shell under the applied load. The
 
 <p align="center">
 <img
-  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/cfrp-shell-buckling/fea-buckling-composite.png"
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/cfrp-shell-buckling/buckling-analysis-cfrp.png"
  width="800">
 </p>
+
 <p align="center">
+First buckling mode of an aluminum and carbon composite (hoop wrap) thin cylindrical shell under applied compressive force.
 </p>
 
 ### [Static Analysis of a Metallic Assembly](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/femap-assembly)
