@@ -12,6 +12,21 @@ Selected FEA projects that cover linear & nonlinear static analysis, buckling an
 
 *Programming Languages*: Python, FORTRAN
 
+### [Static, Buckling, & Modal Analysis of a Composite Inner Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/inner-shell)
+
+The analysis of a composite flywheel energy storage subjected to cenrtrigufal force. 
+
+<p align="center">
+<img
+  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/inner-shell/inner-shell-FI.png"
+ width="800">
+</p>
+
+<p align="center">
+A deformed FEA model of the flywheel rotor assembly depicting the failure index of 2D inner shell predicted by Hoffman Failure Index. 
+</p>
+
+
 ### [Composite Laminate under Uniform Pressure](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/cfrp-plate-bending)
 
 This project is designed to assess the performance of the Linde material model in CalculiX. The model is designed to predict damage initiation and propagation in carbon composites. It's implemeted in CalculiX via the FORTRAN user subroutine. A simply supported laminate subjected to uniform pressure is used to assess the peformance of the Linde material model.     
@@ -137,18 +152,3 @@ Static stress analysis of the metallic assebmly. The assembly contains of two pi
 <p align="center">
 FEA of a glued assebmly pieces in FEMAP. 
 </p>
-
-### [Static, Buckling, & Modal Analysis of a Composite Inner Shell](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/inner-shell)
-
-The analysis of a composite flywheel energy storage subjected to cenrtrigufal force. 
-
-<p align="center">
-<img
-  src="https://github.com/dmytrokuksenko/FEA-Portfolio/blob/main/inner-shell/inner-shell-FI.png"
- width="800">
-</p>
-
-<p align="center">
-A deformed FEA model of the flywheel rotor assembly depicting the failure index of 2D inner shell predicted by Hoffman Failure Index. 
-</p>
-
