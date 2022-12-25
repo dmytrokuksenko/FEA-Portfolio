@@ -1,4 +1,4 @@
-<h1 align="center">Finite Element Analysis (FEA) Project Portfolio</h1> 
+<h1 align="center">Selected Finite Element Analysis (FEA) Projects</h1> 
 
 Selected FEA projects that cover linear & nonlinear static analysis, buckling analysis, dynamic transient and frequency analysis, and modal analysis of composite & metallic structures.
 
