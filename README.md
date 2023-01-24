@@ -152,3 +152,7 @@ Static stress analysis of the metallic assebmly. The assembly contains of two pi
 <p align="center">
 FEA of a glued assebmly pieces in FEMAP. 
 </p>
+
+### [Analysis of Bolted Joints](https://github.com/dmytrokuksenko/FEA-Portfolio/tree/main/bolted-joints-analysis)
+
+FEA and hand calculations of the bolted joints.
