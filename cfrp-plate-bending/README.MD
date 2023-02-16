@@ -52,7 +52,7 @@ Table 3 shows a comparison between predicted maximum displacement, u<sub>3</sub>
 
 The "as-is" ABAQUS Linde material model has been implemented in the open-source software package CalculiX. The predicted displacement in a simply supported CFRP shell predicted by the material model correlates well with the analytical solution available in the literature. The Linde material model can be used for the analysis of composites in the open-source software package CalculiX.
 
-## References
+### References
 
 [1]	I. Daniel, O. Ishai, Engineering mechanics of composite materials, Oxford University Press, 2006.
 
